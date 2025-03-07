@@ -7,3 +7,4 @@ competition
 build/*
 dist/*
 node_modules/*
+competition test/
