@@ -2,8 +2,9 @@ import openai
 import os
 from dataAgent import DataAgent  # Import the DataAgent class
 
-# Set your OpenAI API key (Replace with your actual key)
-openai.api_key = "API"
+api_key = os.getenv("OPENAI_API_KEY")  
+
+openai.api_key = api_key
 
 # Initialize DataAgent and load data from competition directory
 competition_directory = os.path.join(os.path.dirname(__file__), "competition")

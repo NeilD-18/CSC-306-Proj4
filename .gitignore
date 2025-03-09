@@ -8,3 +8,7 @@ build/*
 dist/*
 node_modules/*
 competition test/
+.env
+csc306.venv/
+csc306.venv/*
+usage_openai.json
