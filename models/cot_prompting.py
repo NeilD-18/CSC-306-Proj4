@@ -1,6 +1,9 @@
 import os
 from openai import OpenAI
-from dataAgent import DataAgent  # Import the DataAgent class
+import sys 
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from agents.dataAgent import DataAgent  # Import the DataAgent class
 
 class CoTPromptingModel:
     def __init__(self, api_key=None, competition_directory=None):
@@ -26,7 +29,7 @@ class CoTPromptingModel:
 
         # Set up DataAgent
         self.agent = DataAgent()
-        self.competition_directory = competition_directory or os.path.join(os.path.dirname(__file__), "competition")
+        self.competition_directory = competition_directory or os.path.join(os.path.dirname(__file__), "../competition")
         self.agent.load_data(self.competition_directory)
 
     def identify_relevant_columns(self, csv_data, question):
