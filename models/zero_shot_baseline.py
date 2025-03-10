@@ -1,28 +1,16 @@
+import sys
 import os
 from openai import OpenAI
-<<<<<<< HEAD
-import json  # Ensure json module is imported
-
-import sys
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))  # Add the parent directory to the system path
-
-from agents.dataAgent import DataAgent  # Import the DataAgent class
-from dotenv import load_dotenv
-load_dotenv()  # Load environment variables from .env file
 
 
-class ZeroShotModel:
-=======
-import sys
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from agents.dataAgent import DataAgent  # Import the DataAgent class
 
-class ZeroShotICLModel:
->>>>>>> 73168657f475fd87b2b799d4731d5816fc92cf51
+class ZeroShotModel:
     def __init__(self, api_key=None, competition_directory=None):
         """
-        Initialize the ZeroShotModel with OpenAI API key and data directory.
+        Initialize the Zero-Shot Baseline Model with OpenAI API key and data directory.
         
         Args:
             api_key (str, optional): OpenAI API key. Defaults to environment variable.
@@ -39,16 +27,16 @@ class ZeroShotICLModel:
             )
 
         # Initialize OpenAI client with the API key
+        self.client = OpenAI(api_key=self.api_key)
 
         # Set up DataAgent
         self.agent = DataAgent()
         self.competition_directory = competition_directory or os.path.join(os.path.dirname(__file__), "../competition")
         self.agent.load_data(self.competition_directory)
-        self.client = OpenAI(api_key=self.api_key)
 
-    def query_gpt_icl(self, csv_data, question):
+    def query_gpt_baseline(self, csv_data, question):
         """
-        Queries OpenAI's GPT model using the given tabular data and question.
+        Queries OpenAI's GPT model using a simple, direct prompt with the given tabular data and question.
         """
         prompt = f"""
         You are an AI answering questions based on tabular data.
@@ -57,15 +45,9 @@ class ZeroShotICLModel:
         ```
         {csv_data}
         ```
-        Please answer the following question in JSON format:
-        Question: {question}
 
-        Example response:
-        {{
-            "answer": "<your answer>",
-            "columns_used": ["<column1>", "<column2>"],
-            "explanation": "<brief reasoning>"
-        }}
+        Answer the following question directly, without explanation:
+        {question}
         """
 
         response = self.client.chat.completions.create(
@@ -74,7 +56,7 @@ class ZeroShotICLModel:
                 {"role": "system", "content": "You are a data analyst answering questions about tabular data."},
                 {"role": "user", "content": prompt}
             ],
-            max_tokens=150,
+            max_tokens=100,
             temperature=0
         )
 
@@ -99,7 +81,7 @@ class ZeroShotICLModel:
 
     def ask_question(self, dataset_name, question, dataset_type="sample"):
         """
-        Convenience method to ask a question about a specific dataset.
+        Ask a question about a dataset using the simple baseline approach.
         
         Args:
             dataset_name (str): The competition dataset folder name.
@@ -110,22 +92,18 @@ class ZeroShotICLModel:
             str: The model's response.
         """
         csv_data = self.get_csv_data(dataset_name, dataset_type)
-        return self.query_gpt_icl(csv_data, question)
+        return self.query_gpt_baseline(csv_data, question)
 
 
 # Example usage
 if __name__ == "__main__":
-    # Initialize the model
-    model = ZeroShotICLModel()
+    
+    # Initialize the baseline model
+    model = ZeroShotModel()
 
     # Ask a question about a dataset
     dataset_name = "071_COL"
     question = "What is the most expensive city in this dataset?"
 
     response = model.ask_question(dataset_name, question)
-    try:
-        response_json = json.loads(response)
-        print(response_json["answer"])
-    except json.JSONDecodeError as e:
-        print(f"Failed to decode JSON response: {e}")
-        print(f"Response: {response}")
+    print(response)

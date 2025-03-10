@@ -2,11 +2,19 @@ import os
 from openai import OpenAI
 import pandas as pd
 import sys
+<<<<<<< HEAD
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))  # Add the parent directory to the system path
 
 from agents.dataAgent import DataAgent  # Import the DataAgent class
 from dotenv import load_dotenv
 load_dotenv()  # Load environment variables from .env file
+=======
+import json 
+import re 
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from agents.dataAgent import DataAgent  # Import the DataAgent class
+>>>>>>> 73168657f475fd87b2b799d4731d5816fc92cf51
 
 class CodeBasedModel:
     def __init__(self, api_key=None, competition_directory=None):
@@ -17,6 +25,7 @@ class CodeBasedModel:
             api_key (str, optional): OpenAI API key. Defaults to environment variable.
             competition_directory (str, optional): Path to competition data directory.
         """
+<<<<<<< HEAD
         # Set up API key
         self.api_key = api_key or os.getenv("OPENAI_API_KEY")
 
@@ -27,14 +36,21 @@ class CodeBasedModel:
                 "set the OPENAI_API_KEY environment variable."
             )
 
+=======
+    
+>>>>>>> 73168657f475fd87b2b799d4731d5816fc92cf51
         # Initialize OpenAI client
         self.api_key = api_key or os.getenv("OPENAI_API_KEY")
 
         # Set up DataAgent
         self.agent = DataAgent()
-        self.competition_directory = competition_directory or os.path.join(os.path.dirname(__file__), "competition")
+        self.competition_directory = competition_directory or os.path.join(os.path.dirname(__file__), "../competition")
         self.agent.load_data(self.competition_directory)
         self.client = OpenAI(api_key=self.api_key)
+
+    
+
+  
 
     def query_gpt_code(self, csv_data, column_names, question):
         """
@@ -43,45 +59,52 @@ class CodeBasedModel:
         prompt = f"""
         You are an AI assistant that generates Python code to answer questions based on a tabular dataset.
 
-        Here is a dataset in pandas dataframe format:
-        ```python
+        Below is a dataset stored in a pandas DataFrame:
+        ```python 
         import pandas as pd
         from io import StringIO
 
-        data = '''{csv_data}'''
+        data = \"\"\"{csv_data}\"\"\"
         df = pd.read_csv(StringIO(data))
         ```
 
         The dataset contains the following columns: {', '.join(column_names)}
 
-        Extract only the necessary columns and write Python code to answer:
-        "{question}"
+        ### Task:
+        Extract only the necessary columns and write a **Python function** called `answer(df)` to compute the result.
 
-        Write a Python function `answer(df)` that computes the result.
-
-        The function should return only the final answer as a string.
-
-        Please answer the following question in JSON format:
-
-        Example response:
+        The function should return a **Python dictionary** with the following structure:
+        ```python
         {{
             "answer": "<your answer>",
             "columns_used": ["<column1>", "<column2>"],
             "explanation": "<brief reasoning>"
         }}
+        ```
+
+        Ensure:
+        - The function only uses the **necessary columns**.
+        - The output is a **Python dictionary** (not a JSON string).
+        - Return **only one answer**.
+
+        Now, generate the Python function.
         """
 
-        response = self.client.chat.completions.create(
-            model="gpt-3.5-turbo",  # Use "gpt-4" if available
-            messages=[
-                {"role": "system", "content": "You are a data analyst answering questions about tabular data."},
-                {"role": "user", "content": prompt}
-            ],
-            max_tokens=150,
-            temperature=0
-        )
+        try:
+            response = self.client.chat.completions.create(
+                model="gpt-3.5-turbo",  # Use "gpt-4" if available
+                messages=[
+                    {"role": "system", "content": "You are a data analyst answering questions about tabular data."},
+                    {"role": "user", "content": prompt}
+                ],
+                max_tokens=300,  # Increased limit to handle code output
+                temperature=0
+            )
 
-        return response.choices[0].message.content.strip()
+            return response.choices[0].message.content.strip()
+
+        except Exception as e:
+            return {"error": f"Failed to generate response: {str(e)}"}
 
     def execute_generated_code(self, code, df):
         """
@@ -92,21 +115,34 @@ class CodeBasedModel:
             df (pandas.DataFrame): The dataset in pandas format.
         
         Returns:
-            str: The computed answer.
+            dict: The computed answer as a Python dictionary.
         """
         try:
-            # Define a local scope dictionary to execute code safely
-            local_scope = {"df": df}
-            
+            # Remove Markdown-style triple backticks if present
+            code = re.sub(r"```(?:python)?\n?", "", code)  # Remove opening triple backticks
+            code = re.sub(r"\n?```", "", code)  # Remove closing triple backticks
+
+            # Define a local scope dictionary with necessary imports
+            local_scope = {"df": df, "pd": pd}
+
             # Execute the generated code
             exec(code, {}, local_scope)
 
-            # Fetch the answer from the executed function
-            answer = local_scope.get("answer", "No answer returned.")
-            return str(answer)
+            # Ensure the function `answer(df)` was defined
+            if "answer" in local_scope:
+                answer_func = local_scope["answer"]
+                result = answer_func(df)  # Call the function
+
+                if isinstance(result, dict):  
+                    return json.dumps(result)  # ✅ Already a dictionary, return as-is
+                else:
+                    return {"error": "Generated function did not return a dictionary"}
+
+            return {"error": "Function `answer(df)` was not defined in the generated code."}
 
         except Exception as e:
-            return f"Error executing code: {str(e)}"
+            return {"error": f"Error executing code: {str(e)}"}
+
 
     def get_csv_data(self, dataset_name, dataset_type="sample"):
         """
@@ -155,7 +191,11 @@ class CodeBasedModel:
 
 # Example usage
 if __name__ == "__main__":
+<<<<<<< HEAD
     # Initialize the model
+=======
+    # Initialize the CoT model
+>>>>>>> 73168657f475fd87b2b799d4731d5816fc92cf51
     model = CodeBasedModel()
 
     # Ask a question about a dataset
@@ -163,9 +203,13 @@ if __name__ == "__main__":
     question = "What is the most expensive city in this dataset?"
 
     response = model.ask_question(dataset_name, question)
+<<<<<<< HEAD
     try:
         response_json = json.loads(response)
         print(response_json["answer"])
     except json.JSONDecodeError as e:
         print(f"Failed to decode JSON response: {e}")
         print(f"Response: {response}")
+=======
+    print(response)
+>>>>>>> 73168657f475fd87b2b799d4731d5816fc92cf51

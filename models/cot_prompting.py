@@ -1,28 +1,14 @@
 import os
 from openai import OpenAI
-<<<<<<< HEAD
-import json  # Ensure json module is imported
-
-import sys
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))  # Add the parent directory to the system path
-
-from agents.dataAgent import DataAgent  # Import the DataAgent class
-from dotenv import load_dotenv
-load_dotenv()  # Load environment variables from .env file
-
-
-class ZeroShotModel:
-=======
-import sys
+import sys 
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from agents.dataAgent import DataAgent  # Import the DataAgent class
 
-class ZeroShotICLModel:
->>>>>>> 73168657f475fd87b2b799d4731d5816fc92cf51
+class CoTPromptingModel:
     def __init__(self, api_key=None, competition_directory=None):
         """
-        Initialize the ZeroShotModel with OpenAI API key and data directory.
+        Initialize the Chain of Thought Prompting Model with OpenAI API key and data directory.
         
         Args:
             api_key (str, optional): OpenAI API key. Defaults to environment variable.
@@ -39,16 +25,55 @@ class ZeroShotICLModel:
             )
 
         # Initialize OpenAI client with the API key
+        self.client = OpenAI(api_key=self.api_key)
 
         # Set up DataAgent
         self.agent = DataAgent()
         self.competition_directory = competition_directory or os.path.join(os.path.dirname(__file__), "../competition")
         self.agent.load_data(self.competition_directory)
-        self.client = OpenAI(api_key=self.api_key)
 
-    def query_gpt_icl(self, csv_data, question):
+    def identify_relevant_columns(self, csv_data, question):
         """
-        Queries OpenAI's GPT model using the given tabular data and question.
+        Step 1: Queries GPT-3.5 to determine which columns in the dataset are relevant for answering the question.
+        """
+        prompt = f"""
+        You are analyzing a dataset and determining which columns are most relevant for answering a question.
+
+        Here is the dataset:
+        ```
+        {csv_data}
+        ```
+
+        Identify the column names that are necessary to answer this question:
+        "{question}"
+
+        Respond with a list of column names in JSON format:
+        {{
+            "columns_used": ["<column1>", "<column2>", ...]
+        }}
+        """
+
+        response = self.client.chat.completions.create(
+            model="gpt-3.5-turbo",  # Use "gpt-4" if available
+            messages=[
+                {"role": "system", "content": "You are a data analyst identifying important columns in a dataset."},
+                {"role": "user", "content": prompt}
+            ],
+            max_tokens=150,
+            temperature=0
+        )
+
+        # Extract columns from response (expects JSON format)
+        import json
+        try:
+            columns_info = json.loads(response.choices[0].message.content.strip())
+            return columns_info.get("columns_used", [])
+        except json.JSONDecodeError:
+            return []
+
+    def query_gpt_chain_of_thought(self, csv_data, relevant_columns, question):
+        """
+        Step 2 & 3: Queries GPT-3.5 with Chain of Thought reasoning to systematically answer the question.
         """
         prompt = f"""
         You are an AI answering questions based on tabular data.
@@ -57,24 +82,24 @@ class ZeroShotICLModel:
         ```
         {csv_data}
         ```
-        Please answer the following question in JSON format:
-        Question: {question}
 
-        Example response:
-        {{
-            "answer": "<your answer>",
-            "columns_used": ["<column1>", "<column2>"],
-            "explanation": "<brief reasoning>"
-        }}
+        The most relevant columns for answering the question are: {', '.join(relevant_columns)}.
+
+        Step 1: First, analyze the values in these columns and explain how they can be used to answer the question.
+
+        Step 2: Based on this analysis, derive the final answer.
+
+        Now, answer the question:
+        "{question}"
         """
 
         response = self.client.chat.completions.create(
             model="gpt-3.5-turbo",  # Use "gpt-4" if available
             messages=[
-                {"role": "system", "content": "You are a data analyst answering questions about tabular data."},
+                {"role": "system", "content": "You are a data analyst reasoning through tabular data."},
                 {"role": "user", "content": prompt}
             ],
-            max_tokens=150,
+            max_tokens=250,
             temperature=0
         )
 
@@ -99,7 +124,7 @@ class ZeroShotICLModel:
 
     def ask_question(self, dataset_name, question, dataset_type="sample"):
         """
-        Convenience method to ask a question about a specific dataset.
+        Ask a question about a dataset using the Chain of Thought prompting approach.
         
         Args:
             dataset_name (str): The competition dataset folder name.
@@ -109,23 +134,25 @@ class ZeroShotICLModel:
         Returns:
             str: The model's response.
         """
+        # Load dataset as a string
         csv_data = self.get_csv_data(dataset_name, dataset_type)
-        return self.query_gpt_icl(csv_data, question)
+
+        # Step 1: Identify relevant columns
+        relevant_columns = self.identify_relevant_columns(csv_data, question)
+        print(f"Identified Relevant Columns: {relevant_columns}")
+
+        # Step 2 & 3: Use CoT prompting to answer the question
+        return self.query_gpt_chain_of_thought(csv_data, relevant_columns, question)
 
 
 # Example usage
 if __name__ == "__main__":
-    # Initialize the model
-    model = ZeroShotICLModel()
+    # Initialize the CoT model
+    model = CoTPromptingModel()
 
     # Ask a question about a dataset
     dataset_name = "071_COL"
     question = "What is the most expensive city in this dataset?"
 
     response = model.ask_question(dataset_name, question)
-    try:
-        response_json = json.loads(response)
-        print(response_json["answer"])
-    except json.JSONDecodeError as e:
-        print(f"Failed to decode JSON response: {e}")
-        print(f"Response: {response}")
+    print(response)
