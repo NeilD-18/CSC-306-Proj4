@@ -53,17 +53,28 @@ class ZeroShotModel:
         }}
         """
 
+<<<<<<< Updated upstream
         response = self.client.chat.completions.create(
+=======
+        response = openai.ChatCompletion.create(
+>>>>>>> Stashed changes
             model="gpt-3.5-turbo",  # Use "gpt-4" if available
             messages=[
                 {"role": "system", "content": "You are a data analyst answering questions about tabular data."},
                 {"role": "user", "content": prompt}
             ],
+<<<<<<< Updated upstream
             max_tokens=150,
             temperature=0
         )
 
         return response.choices[0].message.content.strip()
+=======
+            temperature=0
+        )
+
+        return response
+>>>>>>> Stashed changes
 
     def get_csv_data(self, dataset_name, dataset_type="sample"):
         """
