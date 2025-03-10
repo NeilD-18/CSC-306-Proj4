@@ -1,7 +1,12 @@
 import os
 from openai import OpenAI
 import pandas as pd
-from dataAgent import DataAgent  # Import the DataAgent class
+import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))  # Add the parent directory to the system path
+
+from agents.dataAgent import DataAgent  # Import the DataAgent class
+from dotenv import load_dotenv
+load_dotenv()  # Load environment variables from .env file
 
 class CodeBasedModel:
     def __init__(self, api_key=None, competition_directory=None):
@@ -13,7 +18,7 @@ class CodeBasedModel:
             competition_directory (str, optional): Path to competition data directory.
         """
         # Set up API key
-        self.api_key = api_key or os.getenv("")
+        self.api_key = api_key or os.getenv("OPENAI_API_KEY")
 
         # Check if API key is available
         if not self.api_key:
@@ -148,3 +153,19 @@ class CodeBasedModel:
         return self.execute_generated_code(generated_code, df)
 
 
+# Example usage
+if __name__ == "__main__":
+    # Initialize the model
+    model = CodeBasedModel()
+
+    # Ask a question about a dataset
+    dataset_name = "071_COL"
+    question = "What is the most expensive city in this dataset?"
+
+    response = model.ask_question(dataset_name, question)
+    try:
+        response_json = json.loads(response)
+        print(response_json["answer"])
+    except json.JSONDecodeError as e:
+        print(f"Failed to decode JSON response: {e}")
+        print(f"Response: {response}")

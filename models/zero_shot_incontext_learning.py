@@ -1,8 +1,14 @@
 import os
 from openai import OpenAI
+import json  # Ensure json module is imported
 
+import sys
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))  # Add the parent directory to the system path
 
-from dataAgent import DataAgent  # Import the DataAgent class
+from agents.dataAgent import DataAgent  # Import the DataAgent class
+from dotenv import load_dotenv
+load_dotenv()  # Load environment variables from .env file
+
 
 class ZeroShotModel:
     def __init__(self, api_key=None, competition_directory=None):
@@ -27,7 +33,7 @@ class ZeroShotModel:
 
         # Set up DataAgent
         self.agent = DataAgent()
-        self.competition_directory = competition_directory or os.path.join(os.path.dirname(__file__), "competition")
+        self.competition_directory = competition_directory or os.path.join(os.path.dirname(__file__), "../competition")
         self.agent.load_data(self.competition_directory)
         self.client = OpenAI(api_key=self.api_key)
 
@@ -108,4 +114,9 @@ if __name__ == "__main__":
     question = "What is the most expensive city in this dataset?"
 
     response = model.ask_question(dataset_name, question)
-    print(response)
+    try:
+        response_json = json.loads(response)
+        print(response_json["answer"])
+    except json.JSONDecodeError as e:
+        print(f"Failed to decode JSON response: {e}")
+        print(f"Response: {response}")

@@ -83,7 +83,7 @@ def check_data_types(pred, true):
     Returns:
         bool: True if data types match, False otherwise
     """
-    return type(pred) == type(true)
+    return type(convert_to_type(pred)) == type(convert_to_type(true))
 
 def eval_types(y_pred, y_true):
     """Check the data type for each index in both arrays and return the percentage of correct data types.
@@ -117,7 +117,7 @@ def evaluate(y_pred, y_true):
     print(f"Accuracy: {accuracy * 100:.0f}%")
     print(f"Evaluation Types: {eval_types_results:.0f}%")
 
-
+    
 # Example usage
 if __name__ == "__main__":
     y_pred = ["True", "4", "8.8", "hello"]
