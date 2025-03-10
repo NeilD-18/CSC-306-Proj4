@@ -12,3 +12,4 @@ competition test/
 csc306.venv/
 csc306.venv/*
 usage_openai.json
+__pycache__/
