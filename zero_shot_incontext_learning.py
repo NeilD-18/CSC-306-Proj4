@@ -1,5 +1,7 @@
 import os
-import openai
+from openai import OpenAI
+
+
 from dataAgent import DataAgent  # Import the DataAgent class
 
 class ZeroShotModel:
@@ -13,21 +15,21 @@ class ZeroShotModel:
         """
         # Set up API key
         self.api_key = api_key or os.getenv("OPENAI_API_KEY")
-        
+
         # Check if API key is available
         if not self.api_key:
             raise ValueError(
                 "OpenAI API key is required. Either pass it as api_key parameter or "
                 "set the OPENAI_API_KEY environment variable."
             )
-        
+
         # Initialize OpenAI client with the API key
-        openai.api_key = self.api_key
-        
+
         # Set up DataAgent
         self.agent = DataAgent()
         self.competition_directory = competition_directory or os.path.join(os.path.dirname(__file__), "competition")
         self.agent.load_data(self.competition_directory)
+        self.client = OpenAI(api_key=self.api_key)
 
     def query_gpt_icl(self, csv_data, question):
         """
@@ -51,14 +53,17 @@ class ZeroShotModel:
         }}
         """
 
-        response = openai.Completion.create(
+        response = self.client.chat.completions.create(
             model="gpt-3.5-turbo",  # Use "gpt-4" if available
-            prompt=prompt,
+            messages=[
+                {"role": "system", "content": "You are a data analyst answering questions about tabular data."},
+                {"role": "user", "content": prompt}
+            ],
             max_tokens=150,
             temperature=0
         )
 
-        return response.choices[0].text.strip()
+        return response.choices[0].message.content.strip()
 
     def get_csv_data(self, dataset_name, dataset_type="sample"):
         """
@@ -76,7 +81,7 @@ class ZeroShotModel:
             return "\n".join([",".join(row) for row in csv_data])  # Convert to CSV string
         else:
             raise FileNotFoundError(f"Dataset {dataset_name}/{dataset_type}.csv not found.")
-    
+
     def ask_question(self, dataset_name, question, dataset_type="sample"):
         """
         Convenience method to ask a question about a specific dataset.
@@ -97,10 +102,10 @@ class ZeroShotModel:
 if __name__ == "__main__":
     # Initialize the model
     model = ZeroShotModel()
-    
+
     # Ask a question about a dataset
     dataset_name = "071_COL"
     question = "What is the most expensive city in this dataset?"
-    
+
     response = model.ask_question(dataset_name, question)
     print(response)
