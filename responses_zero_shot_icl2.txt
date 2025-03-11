@@ -1,0 +1,522 @@
+No
+Yes
+No
+No
+No
+No
+No
+Yes
+Yes
+Laboratory Technician
+Sales
+Divorced
+Life Sciences
+Travel_Rarely
+Female
+3
+Other
+36
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+31
+4919
+157
+8.0
+1
+8
+8
+[3, 4]
+[2090, 2426, 2661, 2693, 2935]
+[1, 2, 3, 4, 5]
+[23, 22, 21, 20, 17]
+[35, 32, 29, 28, 38]
+['Laboratory Technician', 'Research Scientist', 'Sales Executive']
+['Research & Development', 'Sales']
+['Single', 'Married', 'Divorced']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['Travel_Rarely', 'Travel_Frequently', 'Non-Travel']
+['Yes', 'No']
+['1', '2', '3', '4']
+['1', '2', '3']
+No
+Yes
+2
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+No
+No
+No
+No
+0
+No
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+5.0
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2009
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['marknthedark', 'Largeandy', 'treasurespast', 'euronovice']
+['marknthedark', 'Largeandy', 'treasurespast', 'IndustryBuff', 'cmd123', 'euronovice', 'busyvatraveler']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['2010', '2011', '2012', '2009']
+Yes
+Yes
+No
+No
+Yes
+No
+No
+Request for Quotations
+Western and Central Africa
+Federated States of Micronesia
+Consultant Services
+Eastern and Southern Africa
+Burkina Faso
+Agriculture, Fishing and Forestry
+800433.3
+3
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting property name enclosed in double quotes: line 2 column 19 (char 20)
+754040.0
+Failed to decode JSON response: Expecting property name enclosed in double quotes: line 2 column 19 (char 20)
+10
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Yes, there are contracts awarded after the 2020 fiscal year had ended.
+[754040, 999999, 879159, 879141, 879138]
+['2024', '2025', '2023']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[716716.34, 369866.76, 186884.26, 198952.48]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['Western and Central Africa', 'Eastern and Southern Africa', 'Latin America and Caribbean', 'World']
+['Request for Quotations', 'Request for Bids', 'Consultant Qualification  Selection', 'Individual Consultant Selection']
+['Ghana', 'Micronesia, Federated States of', 'Burkina Faso', 'Nigeria']
+['Post', 'Prior']
+['Post', 'Prior']
+Yes
+Yes
+Yes
+No
+Yes
+Yes
+No
+No
+Attractions
+Attractions
+Automotive
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+150
+Commercial Trucks
+Attractions
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+1
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+8
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+1
+1
+No
+13
+['Auto Body Styles', 'Attractions', 'Automotive']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[1, 1]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['Auto Body Styles', 'Commercial Trucks', 'Convertible']
+['Attractions', 'Automotive']
+['Auto Body Styles', 'Amusement and Theme Parks', 'Bars & Restaurants', 'Casinos & Gambling']
+['Tier 1', 'Tier 2']
+['Attractions', 'Attractions', 'Attractions', 'Attractions']
+['150', '1']
+['150', '1']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Yes
+Yes
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Yes
+Yes
+Yes
+Yes
+No
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Switzerland
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Barbados
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Bahamas
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Barbados
+101.1
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+50.6
+67.2
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[97.0, 83.3, 86.8, 50.4, 73.5]
+['Barbados', 'Puerto Rico', 'Finland', 'Ireland', 'France']
+[99.4, 101.1, 102.4, 102.4, 103.5]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Yes
+No
+No
+No
+No
+Yes
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+1
+SOP score
+2.5
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+5
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+No
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+107.67
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+8.5
+4.0
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+433
+3
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2
+[118, 115, 112, 111, 110]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[4.5, 4.0, 3.5, 3.5, 3.5]
+[4.5, 4.5, 4.5, 4.5, 4.5]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[337, 330]
+[8.0, 8.0]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[337, 330, 327, 328]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[4.5, 4.5, 4.0, 3.5, 3.0]
+No
+No
+True
+Yes
+Yes
+Yes
+Yes
+No
+No
+southeast
+male
+yes
+southwest
+male
+True
+0
+northeast
+no
+42.13
+0.95
+4
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+18
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+3
+30.115
+[42.13, 40.3]
+[39611.7577, 36837.467, 28923.13692]
+[18, 19, 25, 23, 19]
+[19, 18, 19]
+['yes', 'no']
+['southeast', 'southeast', 'southeast']
+Yes
+Yes
+No
+Yes
+Yes
+Yes
+46.5
+Yes
+No
+120 kg
+74 kg
+Deadlift
+398
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+6
+3
+398
+Jessica Wilson lifted 269 kg in the Bench Press category, which is the best record set by women.
+Laura Taylor
+1864
+132
+346
+4
+[398, 396, 396]
+[111, 120, 120, 132, 133]
+[1200, 1090, 1063, 1014, 1004]
+{'59 kg': 21, '83 kg': 27, '66 kg': 35, '74 kg': 33, '105 kg': 21, '120 kg': 24, '52 kg': 31}
+['Jessica Wilson - Bench Press (Amount Lifted: 178 kg)', 'Emily Davis - Bench Press (Amount Lifted: 235 kg)']
+[359, 265, 264]
+['Jessica Wilson', 'Emily Davis', 'Laura Taylor', 'Sarah Thomas', 'Jane Smith']
+['John Doe', 'Michael Johnson', 'Chris Brown', 'Daniel Lee', 'Matthew Anderson']
+['74 kg', '120 kg', '105 kg']
+['Laura Taylor', 'Matthew Anderson', 'Jane Smith']
+['Squat', 'Deadlift', 'Bench Press']
+['Bench Press', 'Deadlift', 'Squat']
+No
+No
+Yes
+Yes
+No
+Yes
+No
+Yes
+HHS Region 04
+Heart disease
+Male
+Urban
+HHS Region 04
+276.4
+0.4
+6
+3746.5
+1.15
+57.06
+5
+276.0
+[276.4, 248.8, 246.0, 229.0, 226.8]
+[0.4, 0.4, 0.5, 0.5, 0.5]
+[115.1, 124.5, 132.2, 138.1, 139.6]
+[3.3, 2.6, 2.3, 1.7]
+[0.4, 0.5, 0.5, 0.6, 0.6]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['HHS Region 04', 'HHS Region 02', 'HHS Region 03']
+['Region', 'Status']
+False
+False
+False
+True
+True
+True
+False
+Yes
+Kevin Durant
+Kevin Durant
+OKC
+Kevin Durant
+Portland Trail Blazers
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Russell Westbrook
+145
+12345
+640
+0.702
+82
+607
+0
+2
+105
+[886, 750, 750]
+[551, 539, 607]
+[2280, 2133, 2036, 2023]
+[145, 142, 129]
+[105, 91, 56]
+['Brook Lopez', 'Paul Pierce', 'Kemba Walker', 'JR Smith', 'Brandon Jennings']
+['Kevin Durant', 'LeBron James', 'David Lee']
+['OKC', 'LAL', 'MIA', 'HOU', 'NYK']
+['NYK', 'GSW', 'OKC', 'MIA', 'POR']
+['Chris Paul', 'Ricky Rubio']
+['Kevin Durant', 'LeBron James', 'Brook Lopez']
+['Russell Westbrook', 'Damian Lillard', 'Rajon Rondo', 'Chris Paul']
+No
+Yes
+Yes
+Yes
+No
+Yes
+Yes
+20
+No
+1
+16
+180
+1
+23.1
+180
+1.40
+22.68
+20
+17
+0
+0.35
+3.067
+[180, 165, 165]
+[16, 17, 18, 19]
+[]
+[146, 146]
+[0, 1]
+[0]
+[147, 156]
+[]
+[18, 19]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+No
+No
+No
+No
+No
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+No
+Yes
+0
+4
+January
+11
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+1
+Monday
+26.4
+0.9
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+627.1
+3.978
+20
+[26.4, 26.2, 24.1]
+[70.8, 77.5, 80.8, 94.3, 97.1]
+[0.0, 8.0, 6.0, 5.0, 7.0]
+[27, 27, 27, 27]
+[6.7, 6.7, 6.7, 6.7, 6.7]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[26.2, 27.4, 27.9]
+['January', 'February', 'August', 'November', 'December']
+['Wednesday', 'Monday', 'Tuesday']
+['August', 'November']
+['Sunday', 'Tuesday', 'Sunday']
+['February', 'November', 'August']
+['Wednesday', 'Tuesday', 'Monday', 'Saturday']
+['Monday', 'Thursday', 'Sunday', 'Wednesday']
+No
+No
+No
+No
+No
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Yes
+No
+Lower Manhattan
+Tea
+Sun
+Coffee
+Jan
+8
+Lower Manhattan
+Coffee, Gourmet brewed coffee, Ethiopia Rg
+2
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+3.25
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+9.00 US$
+0
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[2.0, 2.0, 2.0, 2.5]
+[9.0, 7.0, 6.2]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[]
+['Gourmet brewed coffee', 'Brewed Chai tea', 'Hot chocolate']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['Sun']
+[5, 8]
+['Gourmet brewed coffee', 'Hot chocolate']
+Ethiopia Rg
+True
+True
+True
+False
+False
+False
+Yes
+Yes
+Sapiens A Brief History Of Humankind by Yuval Noah Harari
+Novel
+1
+4
+Khaled Hosseini
+80
+BPB Publications (India)
+6
+Islamic Books
+8
+10078
+6
+8.05
+9
+498
+2
+6
+3
+[498, 640, 80, 512, 492]
+[498, 640, 80, 512, 492]
+[25.0, 13.0, 5.0, 4.0]
+[492]
+[4, 6, 21, 38, 18]
+[0.0, 2.0, 5.0, 13.0, 6.0]
+[498]
+Train to Pakistan
+['History and Tradition', 'Business, Investment and Economics', 'Islamic Books', 'Islamic Books', 'Computer Science & Engineering']
+['Harish Bhat , B.S. Badan', 'Gianna Moscardo (Editor), Bruce Prideaux (Editor), Eric Laws (Editor)']
+['Madinah Arabic Reader 1', 'Train to Pakistan']
+['Novel', 'Business, Investment and Economics']
+['Yuval Noah Harari', 'Benjamin Graham', 'M.A.S. Abdel Haleem (Translator)', 'Leo Tolstoy', 'Chetan Bhagat', 'Gabriel Garcia Marquez', 'Khaled Hosseini', 'Hector Garcia, Francesc Miralles', 'Peter Thiel, Blake Masters']
+['Novel', 'Novel', 'Self-help and meditation', 'Self-help and meditation', 'Self-help and meditation']
+['8th Impression', '1st Edition 2011', 'Reissue Edition', '19th Edition', '1st Edition', '1st Edition', '1st Edition', '1st Edition', 'Edition', '1st Edition', '1st Edition']

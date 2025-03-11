@@ -91,6 +91,13 @@ class CoTPromptingModel:
 
         Now, answer the question:
         "{question}"
+
+        Example response:
+        {{
+            "answer": "<your answer>",
+            "columns_used": ["<column1>", "<column2>"],
+            "explanation": "<brief reasoning>"
+        }}
         """
 
         response = self.client.chat.completions.create(

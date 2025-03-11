@@ -1,0 +1,538 @@
+No
+Yes
+No
+No, the highest DailyRate is not negative.
+No, the Research & Development department is not bigger than the Sales department.
+Yes
+There are more employees who travel frequently than those who work in the HR department.
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Yes, the standard number of working hours is the same across all employees.
+Laboratory Technician
+Sales
+Divorced
+Life Sciences
+Travel_Frequently
+Females are most satisfied with the job on average.
+3
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+The average age of our employees is 36.8 years.
+There are 9 different job roles offered by IBM.
+25
+The median monthly income of our employees is $4919.
+The sum of the miles employees have to travel to get to work is 180.
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2 employees rate their satisfaction with their environment with a score of 4.
+8
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[2028, 2426, 2661, 2693, 2909]
+The different education levels of our employees can be classified into 1, 2, 3, 4, and 5.
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+The 5 most common ages of our employees are 29, 32, 35, 38, and 34.
+Laboratory Technician, Research Scientist, Sales Executive
+Research & Development, Sales
+Single, Married, Divorced
+Life Sciences, Other, Medical
+Travel_Rarely, Travel_Frequently, Non-Travel
+Yes, No
+1, 2, 3, 4
+1, 2, 3
+No, the dataset does not contain any review that more than forty users have labeled as helpful.
+No, not all the reviews sources are non-null.
+No, 1 is not the least frequent overall rating given in a review.
+10 reviews give ratings related to the location.
+No, there are more ratings related to the location than overall ratings.
+No, there are no reviews written in 2024.
+No, not all reviews are labeled as helpful by someone.
+No, there are more reviews not marked as being made from a phone.
+No, the maximum number of helpful votes is found in multiple reviews.
+No, the best possible review for room ratings is not found in more than fifteen reviews.
+2010
+3.5
+5.0
+0
+charlietrisj
+The average review length without taking the title into account is approximately 1,570 characters.
+20
+40
+10.5
+3980
+2004
+1
+159
+2010, 2011, 2012, 2009
+[40, 36, 35, 23, 19]
+['marknthedark', 'Largeandy', 'bigdog717', 'Pressgang', 'treasurespast', 'tinag1968', 'IndustryBuff', 'oahulady66', 'cmd123', 'euronovice', 'a300zx4pak', 'mreav', 'charlietrisj', 'busyvatraveler']
+['marknthedark', 'Largeandy', 'bigdog717', 'treasurespast', 'IndustryBuff', 'oahulady66', 'cmd123', 'euronovice', 'a300zx4pak', 'mreav', 'charlietrisj', 'busyvatraveler']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2010, 2011, 2009, 2012
+Yes, there are entries in the dataset with a supplier contract greater than one million dollars.
+Yes, the region 'Latin America and Caribbean' was awarded only one contract.
+No, India is not amongst the borrower countries in the dataset.
+No, India is not the borrower country with the most contracts awarded.
+Yes, there are projects where the review is made before its execution.
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+No, there is no supplier from the US in the dataset.
+Request for Quotations
+Western and Central Africa
+Federated States of Micronesia
+Consultant Services
+Western and Central Africa
+Burkina Faso
+Agriculture, Fishing and Forestry
+800433.3
+3
+There are 20 procurements in the dataset.
+The average procurement amount across all entries is $108,073.67.
+754040.0
+Standard deviation of the contracts awarded is $236,682.77
+There are 8 supplier contracts in the 2024 fiscal year.
+1. $800,433.3, 2. $716,716.34, 3. $679,925.87
+Yes, there are contracts awarded after the 2020 fiscal year had ended.
+754040.0, 999999.0, 879159.0, 879141.0, 879138.0
+2024, 2025, 2023
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Burkina Faso, Nigeria, Niger, Ethiopia, Somalia
+Western and Central Africa, Eastern and Southern Africa, Latin America and Caribbean, World
+Request for Quotations, Request for Bids, Individual Consultant Selection, Consultant Qualification Selection
+Ghana, Micronesia, Burkina Faso, Nigeria
+Post, Prior
+Post, Prior
+Yes, there is a first tier category with a name related to attractions.
+No, there are not more than five first tier categories.
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+No, not all rows are named.
+Yes, there are fourth level entities in the taxonomy.
+Yes, there are more entities with a valid parent ID than third tier entities.
+No
+No, not all entities have a valid unique value associated.
+Attractions
+Attractions
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Bars & Restaurants
+150
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Attractions
+12 elements
+1
+3
+7 entries belong to the third or fourth tiers.
+2
+1
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+No, not all names are unique.
+12
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+{'Attractions': 12, 'Automotive': 7}
+[1, 1]
+{'Tier 1': 2, 'Tier 2': 12, 'Tier 3': 6, 'Tier 4': 2}
+Auto Body Styles, Commercial Trucks, Convertible
+Attractions, Automotive
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Attractions, Automotive
+Attractions, Automotive
+Attractions, Automotive
+['150', '1', '2']
+Yes, there is at least one vegan product in the dataset.
+Yes, Eduardo created and uploaded products to the database.
+Yes, the product with code 00001522 (Seitán a la plancha) is apt for vegans.
+Yes, the product with code 00001522 (Seitán a la plancha) is palm oil free.
+Yes, there are products belonging to the category 'Plant-based foods and beverages'.
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Hacendado
+Spain
+Hacendado
+1
+Hacendado
+elcoco
+12
+4
+7 products have no labels
+6
+20
+19
+2
+00001522
+Seitán a la plancha
+To be completed
+No preservatives, Green Dot, Vegetarian, Vegan, No gluten
+Hacendado and Mercadona
+The two most frequent store names in the dataset are Hacendado and Mercadona, each appearing in multiple rows. Hacendado appears in 10 rows and Mercadona appears in 6 rows.
+Spain, United States, United Kingdom
+Spain: 20 products, United States: 1 product, United Kingdom: 1 product
+Yes, Switzerland is the country with the highest Cost of Living Index.
+Yes, the Bahamas is ranked second in the dataset.
+Yes, there are countries with a Rent Index above 65.
+No, Iceland does not have more purchasing power than a country that has a 100 in that index.
+No, Barbados is not considered overall more expensive than the country ranked in the 10th place.
+No, the dataset does not include at least 120 countries.
+Yes, you would expect your rent to be more expensive in Singapore compared to Iceland according to the Rent Index.
+Yes, Switzerland is considered to be the most expensive country regardless if you rent or own your home.
+Switzerland
+Barbados
+If you have to rent and want to move to the cheapest country to live in, you should consider moving to Barbados.
+Switzerland
+Bahamas
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Barbados
+101.1
+46.5
+20
+The average Groceries Index across all countries is 73.8.
+The difference between the highest and lowest Restaurant Price Index is 111.7.
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+The mean Local Purchasing Power Index of the top 10 countries by rank is 123.6.
+3
+46.5, 39.2, 67.2, 19.0, 26.2
+64.4, 63.7, 63.3, 63.2, 63.1
+Switzerland: 158.7, Bahamas: 54.6, Iceland: 120.3, Singapore: 111.1, Barbados: 43.5
+Switzerland: Groceries Index - 109.1, Cost of Living Index - 101.1, Rent Index - 46.5
+Switzerland: 97.0, Bahamas: 83.3, Iceland: 86.8, Singapore: 50.4, Barbados: 69.4
+1. Barbados - Cost of Living Index: 76.6, Rent Index: 19.0
+2. Puerto Rico - Cost of Living Index: 63.3, Rent Index: 19.5
+3. Finland - Cost of Living Index: 63.2, Rent Index: 19.7
+4. Iceland - Cost of Living Index: 83.0, Rent Index: 39.2
+5. Canada - Cost of Living Index: 64.8, Rent Index: 33.2
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Switzerland, Bahamas, Iceland, Singapore, Barbados
+Switzerland, Iceland, Bahamas
+Barbados, Puerto Rico, Iceland
+Australia, Austria, Canada, New Zealand, Ireland
+1. Luxembourg, 2. Switzerland, 3. United States, 4. Denmark, 5. Norway
+Puerto Rico, Barbados, Bahamas
+Yes, there is one applicant who scored better than 330 in their GRE.
+Yes, there are applicants who got a score worse than 100 in their English test.
+No
+No, there were no applicants with a perfect university rating score who got a grade below 320 in their GRE.
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+No, the lowest TOEFL Score in the dataset is 102 which is not worse than 2.
+Yes, there are applicants who don't have any research experience.
+Yes
+5
+University Rating of the applicant with the lowest GRE score is 3.
+The most common score given to the stated purpose of admission (SOP) among applications is 4.0.
+2.0
+2
+Rating 5 is associated with the highest accumulated grade point average.
+3
+No, most students do not have research experience prior to the application.
+337
+The average TOEFL Score of applicants who have at least some research experience is 109.0.
+There are 10 applicants with a university rating of 3.
+The maximum grade point average among applicants without research experience is 8.5.
+2.0
+0.675
+Sum of English test scores for applicants with an SOP better than 4 is 429.
+3 applicants have a graduate record score between 300 and 310 (including both).
+337, 330, 328, 327, 325
+1 person in the dataset got a perfect English score.
+2 applicants got a perfect score in their statement of purpose.
+118, 115, 112, 111, 110
+7.9, 8.0, 8.0, 8.0, 8.0
+4.5, 4.0, 3.5, 3.0, 2.0
+4.5, 4.5, 4.5, 4.0, 4.5
+1. 118
+2. 115
+3. 112
+4. 110
+5. 110
+The best 2 GRE Scores of applicants with a stated motivation rating better than 4 are 337 and 330.
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[4, 5, 4, 4, 4]
+[2, 3, 3, 3, 3]
+Failed to decode JSON response: Unterminated string starting at: line 33 column 20 (char 737)
+[4.5, 4.0, 3.5, 3.5, 4.5]
+[2.0, 2.5, 3.0, 3.0, 3.0]
+No, there is no individual in the dataset with a body mass index greater than 50.
+True
+True, there are no centenarians in this dataset.
+Yes, the average BMI found in this dataset is considered not to be obese.
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Yes, the dataset contains people who do not consume tobacco.
+Yes, there are individuals from the northeast region in the dataset.
+No, an individual with the median BMI of the dataset would not be considered underweight.
+Yes
+southeast
+male
+The individual who paid the most money is a smoker.
+southeast
+female
+False
+0
+northeast
+The individual with the lowest BMI is a non-smoker.
+42.13
+The average number of children is 1.3.
+4
+The sum of all medically related charges in the dataset is $403,282.6069.
+18
+2 people in the dataset have lived for more than six decades.
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+30.78
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[39611.7577, 36837.467, 28923.13692]
+[18, 19, 19, 25, 23]
+[19, 18, 19]
+['yes']
+southeast, southwest, southeast
+Yes, there are lifters older than 50 in the dataset.
+Yes, the dataset contains squatting lifts.
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Yes
+No, there are not more than 100 lifters in the weight class someone that weighs 82kg would compete in.
+Yes
+No, the average age of all lifting records in the weight class of someone who weighs 103000 grams above 40 is not above 40.
+Yes, Jessica Wilson appears in the dataset.
+No, there are more than 5 unique types of exercise recorded.
+105 kg
+74 kg
+Squat
+The current record for the maximum weight ever lifted is 398 kg by lifter Matthew Anderson.
+10
+6 different men can be found in this dataset.
+4
+398 kg
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Laura Taylor
+The total sum of the amounts lifted in a bench press exercise is 1,312 kg.
+132 kg
+346 kg
+3 lifters are in the weight class that people who weigh 139 pounds would enter.
+1. Matthew Anderson - 398 kg (Bench Press), 2. Laura Taylor - 396 kg (Deadlift), 3. Daniel Lee - 347 kg (Deadlift)
+Jane Smith lifted 111 kg, Daniel Lee lifted 133 kg, Emily Davis lifted 132 kg, John Doe lifted 179 kg, and Jessica Wilson lifted 178 kg.
+1. 398 kg by Matthew Anderson in the 74 kg weight class for Bench Press
+2. 396 kg by Laura Taylor in the 105 kg weight class for Deadlift
+3. 396 kg by Laura Taylor in the 74 kg weight class for Deadlift
+4. 359 kg by Emily Davis in the 66 kg weight class for Squat
+5. 347 kg by Daniel Lee in the 52 kg weight class for Deadlift
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+The 2 worst lifts in the '105 kg' weight class are: Laura Taylor with a Deadlift of 273 kg and Emily Davis with a Bench Press of 235 kg.
+1. Squat - 359 kg by Emily Davis
+2. Squat - 265 kg by Michael Johnson
+3. Squat - 264 kg by Sarah Thomas
+Jessica Wilson, Emily Davis, Laura Taylor, Sarah Thomas, Jane Smith
+John Doe, Michael Johnson, Chris Brown, Daniel Lee, Matthew Anderson
+74 kg, 120 kg, 105 kg
+Laura Taylor, Matthew Anderson, Jane Smith
+Squat, Deadlift, Bench Press
+Bench Press, Deadlift, Squat
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+No, there are more cases recorded in rural areas overall.
+Yes
+Yes, the dataset includes cases with an error less than 0.5.
+Yes, all values associated with the death rate are higher than 100.
+No, not all of the most frequent causes of mortality are related to the heart.
+No region appears more than 50 times.
+Yes, there are more cases recorded for men than for women.
+HHS Region 04
+Heart disease
+Males have the worst average mortality rate.
+Rural
+HHS Region 04
+276.4
+0.4
+There are 8 cases with a death rate worse than 200.
+The total sum of all death rate values is 3,978.3
+The average error recorded is 1.25.
+37.67
+5
+The range of death rates for any cause of death in this dataset is 276.0 (max) - 115.1 (min) = 160.9
+The 5 worst death rates recorded are: 276.4, 248.8, 246.0, 229.0, 226.8
+0.4, 0.4, 0.5, 0.5, 0.6
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Heart disease
+HHS Region 04, HHS Region 02, HHS Region 03
+Urban, Rural
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+False
+False
+True
+True
+True
+False
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Kevin Durant
+Kevin Durant
+OKC
+Kevin Durant
+Portland Trail Blazers
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+129
+10977
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+63.6%
+82
+607
+0
+2
+105
+1. Kevin Durant - 640 rebounds in 2012-13 season
+2. David Lee - 886 rebounds in 2012-13 season
+3. LaMarcus Aldridge - 670 rebounds in 2012-13 season
+1. LeBron James - 551 assists in the 2012-13 season, 2. Damian Lillard - 531 assists in the 2012-13 season, 3. Rajon Rondo - 527 assists in the 2012-13 season
+1. Kevin Durant - 2280 points, 2. Kobe Bryant - 2133 points, 3. LeBron James - 2036 points, 4. James Harden - 2023 points
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+1. Kevin Durant - 105 blocks, 2. LeBron James - 67 blocks, 3. Russell Westbrook - 24 blocks
+Brook Lopez, Paul Pierce, Brandon Jennings, JR Smith, Kemba Walker
+1. David Lee, 886 rebounds. 2. LaMarcus Aldridge, 670 rebounds. 3. Brook Lopez, 512 rebounds.
+1. OKC - 4483 points, 2. MIA - 4079 points, 3. GSW - 3232 points, 4. NYK - 3366 points, 5. HOU - 2023 points
+1. POR - 927, 2. NYK - 885, 3. GSW - 700, 4. MIA - 654, 5. OKC - 1068
+LeBron James and Chris Paul
+1. Kevin Durant - 105 blocks, 2. LeBron James - 67 blocks, 3. Brook Lopez - 154 blocks
+1. Damian Lillard - 531 assists, 2. Russell Westbrook - 607 assists, 3. Rajon Rondo - 527 assists, 4. Jrue Holiday - 513 assists
+No, there is no woman in the dataset with a BMI greater than 30.
+Yes, there are women younger than 18 years in the dataset.
+Yes, the dataset contains women who have never been pregnant.
+Yes, all women in the dataset are younger than 40 years.
+No, not every woman in the dataset has an associated height strictly greater than 1.40 meters.
+Yes
+Yes, all women in the dataset are predicted to be free of diabetes.
+There are 19 teen pregnancies in this dataset.
+No, there is no woman with a weight of exactly 50000 grams in the dataset.
+1
+The age of the woman with the lowest body mass index is 19.
+The maximum height amongst the two heaviest women is 180 cm.
+1
+23.1
+The heaviest person in the dataset weighs 180 pounds.
+1.40 meters
+The average BMI across all women is 22.8.
+20
+17
+There are 0 women who weigh less than 60 kg.
+0.45
+2.99
+180 cm, 165 cm, 165 cm
+16, 17, 18, 19
+[1]
+The weights of women with a height of exactly 1m and 45cm are 49kg, 50kg, and 49kg.
+0, 1
+0
+[147, 156]
+[]
+[17, 18]
+Yes, there is a record where the area affected is greater than 50ha.
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+No
+No, not all of the horizontal axis coordinates are plotted to the right of the third column.
+No, there are no entries where the temperature is below freezing level in Celsius.
+Yes, there are measurements that recorded 0% humidity.
+No, there are not more than 10 unique months in the dataset.
+No, not all months of the year are present in the dataset.
+Yes
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+6
+January
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Wednesday
+January
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Sunday
+The hottest temperature recorded is 26.4 degrees Celsius.
+0.9
+0.0
+5
+47.05
+632.8
+3.978
+20 fires affected a negligible (zero) amount of terrain.
+The 3 hottest temperatures recorded are 26.4, 26.2, and 26.2.
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[6.7, 6.7, 6.7, 6.7, 6.7]
+0.0
+26.2, 27.4, 27.9
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Wednesday, Monday, Tuesday
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['January', 'February', 'November', 'December']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Monday, Thursday, Wednesday, Tuesday, Saturday, Sunday
+No, there is no transaction where more than 10 products were sold.
+No, 99 is not an existing id for a store.
+No, not all rows of this dataset have a different product id.
+No, we never sold 20 items in the same transaction.
+No, there is no single product with a price greater than 100.
+Yes
+Yes, we have a separate category for drinking chocolate in our stores.
+Yes
+Lower Manhattan
+Tea
+Sun
+Drinking Chocolate
+Jan
+8
+Lower Manhattan
+Coffee - Gourmet brewed coffee - Ethiopia Rg
+2
+15
+Total revenue provided by all transactions in the dataset is $99.50
+Yes, our stores are open on Sunday.
+The average unitary price in our transactions is $3.23.
+18
+2
+9.00 US$
+0
+2 products were bought in one transaction for the top 3 transactions.
+5, 8
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+7, 8
+Lower Manhattan, Hell's Kitchen
+[]
+Tea, Drinking Chocolate, Coffee
+Jan
+Sun
+Store IDs 5 and 8 are the 2 most popular stores in terms of number of purchases.
+Drinking Chocolate, Tea
+Ethiopia Rg
+True
+True
+True
+False
+False
+False
+Yes, 'The Intelligent Investor' is a book published by Harpercollins Publishers (India).
+Yes, there is a book with fewer than 100 pages.
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Novel
+Thousand
+2
+Khaled Hosseini
+80 pages
+BPB Publications (India)
+6.0
+Islamic Books
+8th Impression
+Total number of book pages in our database is 9,978 pages.
+4 books
+The average rating of all books is 8.05.
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+498 pages
+2
+6
+4
+498, 640, 80, 512, 492
+498, 640, 80, 512, 492
+27.0, 25.0, 19.0, 16.0
+[492]
+4.0, 6.0, 21.0, 38.0, 18.0
+9.0, 2.0, 0.0, 0.0, 0.0
+Sapiens A Brief History Of Humankind: 498 pages
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+History and Tradition, Business, Investment and Economics, Islamic Books, Islamic Books, Computer Science & Engineering
+Harish Bhat, Gianna Moscardo (Editor), Bruce Prideaux (Editor), Eric Laws (Editor)
+Madinah Arabic Reader 1, Train to Pakistan, Ikigai, Zero to One: Notes on Start Ups
+History and Tradition, Business, Investment and Economics, Novel
+Yuval Noah Harari, Benjamin Graham, M.A.S. Abdel Haleem (Translator), Leo Tolstoy, Khushwant Singh, Gabriel Garcia Marquez, Khaled Hosseini, Hector Garcia, Francesc Miralles, Peter Thiel
+Novel, Novel, Novel, Self-help and meditation, Self-help and meditation
+1st Edition 2011, 8th Impression, 1st Edition, 1st Edition, Edition, 1st Edition, Edition, Edition, Edition, 1st Edition, Edition, Edition, Edition, 1st Published, 1st Edition, 5th Edition
