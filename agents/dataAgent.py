@@ -1,10 +1,7 @@
 import os
 import csv
-<<<<<<< HEAD
 import sys
 import argparse
-=======
->>>>>>> 73168657f475fd87b2b799d4731d5816fc92cf51
 
 class DataAgent:
     """
@@ -49,7 +46,6 @@ class DataAgent:
                 'all_column_names': [...]
             }}
         """
-<<<<<<< HEAD
         if not os.path.exists(competition_dir):
             print(f"Error: Competition directory not found: {competition_dir}")
             return False
@@ -77,26 +73,6 @@ class DataAgent:
         except Exception as e:
             print(f"Error loading data: {str(e)}")
             return False
-=======
-        for folder_name in os.listdir(competition_dir):
-            folder_path = os.path.join(competition_dir, folder_name)
-            if os.path.isdir(folder_path):
-                self.data[folder_name] = {}
-                sample_csv_path = os.path.join(folder_path, 'sample.csv')
-                all_csv_path = os.path.join(folder_path, 'all.csv')
-                
-                if os.path.exists(sample_csv_path):
-                    with open(sample_csv_path, 'r') as sample_file:
-                        sample_data = list(csv.reader(sample_file))
-                        self.data[folder_name]['sample'] = sample_data
-                        self.data[folder_name]['sample_column_names'] = self.extract_column_names(sample_data)
-                
-                if os.path.exists(all_csv_path):
-                    with open(all_csv_path, 'r') as all_file:
-                        all_data = list(csv.reader(all_file))
-                        self.data[folder_name]['all'] = all_data
-                        self.data[folder_name]['all_column_names'] = self.extract_column_names(all_data)
->>>>>>> 73168657f475fd87b2b799d4731d5816fc92cf51
 
     def print_dictionary_keys(self, d, indent=0):
         """
@@ -113,7 +89,6 @@ class DataAgent:
 
 # Usage
 if __name__ == "__main__":
-<<<<<<< HEAD
     parser = argparse.ArgumentParser(description='Load and analyze competition data.')
     parser.add_argument('--data-dir', type=str, 
                         default=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'competition test'),
@@ -134,11 +109,3 @@ if __name__ == "__main__":
         print("\nFailed to load data. Please verify the directory path.")
         print("You can specify a different path with --data-dir argument.")
         print("Example: python dataAgent.py --data-dir /path/to/competition/directory")
-=======
-    agent = DataAgent()
-    competition_directory = os.path.join(os.path.dirname(__file__), 'competition test')
-    agent.load_data(competition_directory)
-    
-    print("\nAll dictionary keys:")
-    agent.print_dictionary_keys(agent.data)
->>>>>>> 73168657f475fd87b2b799d4731d5816fc92cf51

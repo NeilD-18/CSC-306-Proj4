@@ -1,0 +1,524 @@
+No
+Yes
+No
+No
+No
+No
+Yes
+Yes
+Yes
+Laboratory Technician
+Sales
+Divorced
+Life Sciences
+Travel_Rarely
+Female
+3
+Other
+The average age of our employees is 36.8 years.
+9
+31 years
+The median monthly income of our employees is $4879.
+158
+8
+1
+8
+8 years
+['3', '4']
+[2028, 2090, 2426, 2661, 2693]
+1, 2, 3, 4, 5
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+{'32': 3, '29': 2, '38': 2, '35': 1, '36': 1}
+{'Laboratory Technician': 5, 'Research Scientist': 4, 'Manufacturing Director': 2}
+{'Department': ['Research & Development', 'Sales'], 'Total_Employees': [14, 3]}
+['Single', 'Married', 'Divorced']
+['Life Sciences', 'Other', 'Medical']
+['Travel_Rarely', 'Travel_Frequently', 'Non-Travel']
+['Yes', 'No']
+{'JobLevel_1': 1, 'JobLevel_2': 2, 'JobLevel_3': 3, 'JobLevel_4': 4}
+{'JobLevel': {'1': 6, '2': 6, '3': 5}}
+No, the dataset does not contain any review that more than forty users have labeled as helpful.
+Yes, all the review sources are non-null.
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+No, there are no reviews written in 2024.
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+No
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+No
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+1
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[123, 70, 49, 40, 36]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['marknthedark', 'Largeandy', 'treasurespast', 'IndustryBuff', 'cmd123', 'euronovice', 'busyvatraveler']
+['127329251', '116668645', '116189947', '116189947', '127544996']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Yes, there are entries in the dataset with a supplier contract greater than one million dollars.
+Yes
+No
+No, India is not the borrower country with the most contracts awarded.
+Yes, there are projects where the review is made before its execution.
+Yes
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Request for Quotations
+Western and Central Africa
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Eastern and Southern Africa
+Burkina Faso
+Agriculture, Fishing and Forestry
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+3
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting property name enclosed in double quotes: line 2 column 19 (char 20)
+754040.0
+Failed to decode JSON response: Expecting property name enclosed in double quotes: line 2 column 19 (char 20)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Yes, there are contracts awarded after the 2020 fiscal year had ended.
+['754040.0', '999999.0', '879159.0', '879141.0', '879138.0']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[{'Supplier Contract Amount (USD)': 13222.93, 'Contract Description': 'Procurement of Office Equipment and Installation'}, {'Supplier Contract Amount (USD)': 157840.9, 'Contract Description': 'Supply and Installation of Water Quality Monitoring and Assessment Equipment'}]
+[716716.34, 369866.76, 29907.75, 186884.26]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+{'Western and Central Africa': 14, 'Eastern and Southern Africa': 4, 'LATIN AMERICA AND CARIBBEAN': 1, 'World': 3}
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['Ghana', 'Micronesia, Federated States of', 'Burkina Faso', 'Nigeria']
+['Post', 'Prior']
+['Post', 'Prior']
+Yes
+No
+Yes
+No
+Yes, there are fourth level entities in the taxonomy.
+Yes
+No
+No, not all entities have a valid unique value associated.
+Attractions
+Attractions
+Automotive
+Automotive
+150
+Commercial Trucks
+Attractions
+There are 19 elements in the taxonomy.
+1
+3
+7
+2
+1
+1
+No
+19
+{'Parent 1': 'Attractions', 'Parent 2': 'Auto Body Styles', 'Parent 3': 'Automotive'}
+{'Attractions': 12, 'Automotive': 7}
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+{'Tier 1': 14, 'Tier 2': 14, 'Tier 3': 6, 'Tier 4': 1}
+['Auto Body Styles', 'Commercial Trucks', 'Convertible']
+['Attractions', 'Automotive']
+{'1': 'Auto Body Styles', '2': 'Amusement and Theme Parks', '3': 'Bars & Restaurants', '4': 'Casinos & Gambling'}
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['Attractions', 'Attractions', 'Attractions', 'Attractions']
+['150', '1']
+['150', '1']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Yes, the product with code 00001522 (Seitán a la plancha) is palm oil free.
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Yes
+Yes
+Yes, Singapore has a Rent Index above 65.
+Yes
+No, Barbados is not considered overall more expensive than the country ranked in the 10th place.
+No
+Yes, you would expect your rent to be more expensive in Singapore compared to Iceland according to the Rent Index.
+Yes, Switzerland is considered to be the most expensive country regardless if you rent or own your home.
+Switzerland
+Barbados
+Barbados
+Switzerland
+Bahamas
+Bahamas
+Barbados
+101.1
+46.5
+20
+Average Groceries Index: 73.86
+111.6
+Rent Index for Singapore is 67.2
+121.08
+3
+[46.5, 39.2, 67.2, 26.2, 26.4]
+64.4, 63.7, 63.2, 63.1, 62.7
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Switzerland, Iceland, Bahamas
+Barbados, Puerto Rico, Iceland
+['Austria', 'Canada', 'New Zealand', 'Ireland', 'France']
+Failed to decode JSON response: Expecting property name enclosed in double quotes: line 25 column 40 (char 613)
+Barbados, Puerto Rico, Iceland
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Yes, there are applicants who got a score worse than 100 in their English test.
+No
+No, there were no applicants with a perfect university rating score who got a grade below 320 in their GRE.
+No, there is no applicant with a chance above 95 per cent of getting into the university they applied to.
+No
+Yes, there are applicants who don't have any research experience.
+Yes
+5
+2
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2.5
+2
+Rating 5
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+No, most students do not have research experience prior to the application.
+337
+TOEFL Score: 108.5
+11
+8.5
+4.0
+0.823
+Sum of English test scores for applicants with an SOP better than 4 is 107+108+111 = 326
+3
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+0
+2 applicants got a perfect score in their statement of purpose.
+[118, 115, 112, 111, 110]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[4.5, 4.5, 4.5, 4.5, 4.0]
+[4.5, 4.5, 4.5, 4.0, 4.0]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting ',' delimiter: line 20 column 23 (char 486)
+[{'CGPA': 8.0}, {'CGPA': 8.0}]
+[5, 4, 4, 4, 4]
+[2, 2, 3, 3, 3]
+Failed to decode JSON response: Expecting property name enclosed in double quotes: line 20 column 27 (char 482)
+[4.5, 4.0, 3.5, 3.5, 4.5]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+No
+true
+True
+Yes, the average BMI found in this dataset is considered not to be obese.
+Yes, there are childless individuals in the dataset.
+Yes, the dataset contains people who do not consume tobacco.
+Yes
+No
+Yes
+southeast
+male
+yes
+southeast
+male
+False
+0
+northeast
+no
+42.13
+Average number of children: 0.95
+4
+sum of all medically related charges is 236876.6752
+18
+2
+3
+30.115
+[42.13, 40.3]
+[39611.7577, 36837.467, 28923.13692]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[19, 18, 19]
+['yes']
+['southeast', 'southeast', 'southwest']
+Yes
+Yes
+No
+Yes
+Yes
+No
+No, the average age of all lifting records in the weight class of someone who weighs 103000 grams above 40 is not available in the dataset.
+Yes
+No
+120 kg
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Deadlift
+398 kg
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+6
+4
+398 kg
+Jessica Wilson lifted 269 kg in the Bench Press category, which is the best record set by women in that category.
+Emily Davis
+1422
+132
+346
+3
+[{'Lifter Name': 'Matthew Anderson', 'Amount Lifted (kg)': 398}, {'Lifter Name': 'Laura Taylor', 'Amount Lifted (kg)': 396}, {'Lifter Name': 'Matthew Anderson', 'Amount Lifted (kg)': 396}]
+Failed to decode JSON response: Unterminated string starting at: line 24 column 37 (char 572)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+{'59 kg': 21, '83 kg': 27, '66 kg': 15, '74 kg': 33, '105 kg': 21, '120 kg': 24, '52 kg': 7}
+Failed to decode JSON response: Unterminated string starting at: line 19 column 20 (char 540)
+[{'Lifter Name': 'Daniel Lee', 'Amount Lifted (kg)': 347}, {'Lifter Name': 'Laura Taylor', 'Amount Lifted (kg)': 328}, {'Lifter Name': 'Michael Johnson', 'Amount Lifted (kg)': 265}]
+['Jessica Wilson', 'Emily Davis', 'Laura Taylor', 'Sarah Thomas', 'Jane Smith']
+['John Doe', 'Michael Johnson', 'Chris Brown', 'Matthew Anderson', 'Daniel Lee']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['Laura Taylor', 'Matthew Anderson', 'Jane Smith', 'Laura Taylor', 'Laura Taylor']
+['Squat', 'Deadlift', 'Bench Press']
+{'Bench Press': 8, 'Deadlift': 7, 'Squat': 3}
+No, there is no condition in the dataset where the mortality rate is more prevalent than a condition with a rate of 300.
+Yes, there are more cases recorded in cities overall.
+Yes
+Yes
+Yes
+Yes
+No, no region appears more than 50 times.
+Yes, there are more cases recorded for men than for women.
+HHS Region 04
+Heart disease
+Male
+Urban
+HHS Region 04
+276.4
+0.4
+6 cases have a death rate worse than 200.
+Total sum of all death rate values is 3316.1
+1.25
+33.67
+5
+144.3
+Failed to decode JSON response: Expecting value: line 6 column 81 (char 434)
+Failed to decode JSON response: Unterminated string starting at: line 25 column 20 (char 429)
+Failed to decode JSON response: Unterminated string starting at: line 25 column 13 (char 592)
+Failed to decode JSON response: Expecting value: line 23 column 11 (char 575)
+Failed to decode JSON response: Unterminated string starting at: line 23 column 22 (char 562)
+['Heart disease']
+HHS Region 04, HHS Region 02, HHS Region 03
+Region and Status
+False
+False
+False
+True
+True
+True
+False
+Yes, Kevin Durant has a field goal record better than 9/10 for the 2012-13 Regular Season.
+Kevin Durant
+Kevin Durant
+OKC
+Kevin Durant
+Portland Trail Blazers
+Russell Westbrook
+Russell Westbrook
+145
+11378
+640
+72.5%
+82
+Russell Westbrook with 607 assists in the 2012-13 Regular Season
+0
+2
+105
+[{'PLAYER': 'David Lee', 'REB': 886}, {'PLAYER': 'LaMarcus Aldridge', 'REB': 670}, {'PLAYER': 'Dwight Howard', 'REB': 672}]
+1. LeBron James - 551 assists
+2. Rajon Rondo - 527 assists
+3. Chris Paul - 572 assists
+Failed to decode JSON response: Expecting ',' delimiter: line 21 column 233 (char 626)
+[{'PLAYER': 'Russell Westbrook', 'STL': 145}, {'PLAYER': 'Stephen Curry', 'STL': 126}, {'PLAYER': 'Jrue Holiday', 'STL': 125}]
+[{'PLAYER': 'David Lee', 'BLK': 22}, {'PLAYER': 'Brook Lopez', 'BLK': 154}, {'PLAYER': 'Blake Griffin', 'BLK': 50}]
+[{'PLAYER': 'Brook Lopez', 'GP': 74}, {'PLAYER': 'Paul Pierce', 'GP': 77}, {'PLAYER': 'Kobe Bryant', 'GP': 78}, {'PLAYER': 'LeBron James', 'GP': 76}, {'PLAYER': 'Carmelo Anthony', 'GP': 67}]
+[{'PLAYER': 'David Lee', 'REB': 886}, {'PLAYER': 'LaMarcus Aldridge', 'REB': 670}, {'PLAYER': 'Dwight Howard', 'REB': 646}]
+Failed to decode JSON response: Unterminated string starting at: line 25 column 20 (char 485)
+Failed to decode JSON response: Unterminated string starting at: line 25 column 20 (char 491)
+[{'PLAYER': 'Russell Westbrook', 'STL': 145}, {'PLAYER': 'Stephen Curry', 'STL': 126}]
+[{'PLAYER': 'Kevin Durant', 'BLOCKS': 105}, {'PLAYER': 'LeBron James', 'BLOCKS': 67}, {'PLAYER': 'Brook Lopez', 'BLOCKS': 154}]
+[{'PLAYER': 'Rajon Rondo', 'AST': 666}, {'PLAYER': 'Chris Paul', 'AST': 678}, {'PLAYER': 'John Wall', 'AST': 721}, {'PLAYER': 'Ricky Rubio', 'AST': 812}]
+No
+Yes
+Yes
+Yes
+No
+Yes
+Yes
+20
+No
+1
+16
+165
+1
+23.1
+180
+1.40 meters
+22.7
+20
+17
+0
+0.035
+2.99
+[165, 165, 156]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[]
+[145, 146]
+['0', '1']
+['0']
+[147, 156]
+[]
+[18, 19]
+Yes, there are records where the area affected is greater than 50ha.
+Yes, there was a fire unaffected by wind.
+No
+No
+No, there are no entries where the temperature is below freezing level in Celsius.
+Yes, there are measurements that recorded 0% humidity.
+Yes
+No, not all months of the year are present in the dataset.
+Yes
+11
+4
+January
+11
+Wednesday
+January
+1
+Monday
+26.4
+0.9
+0.0
+6
+50.05
+634.8
+3.978
+20 fires affected a negligible (zero) amount of terrain.
+The 3 hottest temperatures recorded are 26.4, 26.2, and 24.1.
+[70.8, 77.5, 80.8, 94.3, 97.1]
+['January', 'February', 'August', 'November', 'December']
+[27, 27, 27, 27]
+26.4, 22.2, 21.3, 19.3, 18.0
+The size of the top 3 greatest areas a fire affected are 0.0 hectares.
+[26.2, 27.4, 27.9]
+['August', 'December', 'February', 'January', 'November']
+Wednesday, Monday, Saturday
+['August', 'November']
+Tuesday, Sunday, Thursday
+['February', 'November', 'January']
+['Wednesday', 'Tuesday', 'Monday', 'Thursday', 'Saturday']
+['Monday', 'Thursday', 'Tuesday', 'Wednesday', 'Sunday']
+No, there is no transaction where more than 10 products were sold.
+No
+No
+No, we did not sell 20 items in the same transaction.
+No
+Yes
+Yes, we have a separate category for drinking chocolate in our stores.
+Yes
+Lower Manhattan
+Tea
+Sun
+Drinking Chocolate
+Jan
+8
+Lower Manhattan
+Coffee - Gourmet brewed coffee - Ethiopia Rg
+2
+11
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Yes, our stores are open on Sunday.
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+20
+2
+9.00 US$
+0
+2 products were bought in one transaction the most number of times.
+5, 8
+['2.0', '2.0', '2.0', '2.5']
+{'1': 9.0, '2': 7.0, '3': 6.2}
+[7, 8]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[]
+{'Barista Espresso': 2, 'Brewed Chai tea': 4, 'Hot chocolate': 3}
+['Jan']
+['Sun']
+5, 8
+['Spicy Eye Opener Chai Lg', 'Spicy Eye Opener Chai Lg']
+Ouro Brasileiro
+True
+True
+True
+False
+False
+False
+Yes, 'The Intelligent Investor' is published by Harpercollins Publishers (India).
+Yes, there is a book with fewer than 100 pages.
+Sapiens A Brief History Of Humankind by Yuval Noah Harari
+Novel
+1
+2
+Khaled Hosseini
+80 pages
+BPB Publications (India)
+6.0
+Islamic Books
+8th Impression
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+4
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+9
+498
+2
+6
+2
+[498, 640, 80, 512, 492]
+[498, 640, 80, 512, 492]
+{'Sapiens A Brief History Of Humankind': 16.0, 'The Intelligent Investor': 25.0, 'One Hundred Years of Solitude': 23.0, 'A Thousand Splendid Suns': 27.0}
+[492]
+{'Sapiens A Brief History Of Humankind': 4.0, 'The Intelligent Investor': 6.0, 'Madinah Arabic Reader 1': 21.0, 'The Quran': 38.0, 'Let Us C, 19th Edition': 18.0}
+[0.0, 2.0, 0.0, 2.0, 6.0]
+[498]
+Train to Pakistan
+['History and Tradition', 'Business, Investment and Economics', 'Islamic Books', 'Islamic Books', 'Computer Science & Engineering']
+['Harish Bhat , B.S. Badan', 'Gianna Moscardo (Editor), Bruce Prideaux (Editor), Eric Laws (Editor)']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['Novel']
+['Benjamin Graham', 'Yuval Noah Harari', 'M.A.S. Abdel Haleem (Translator)', 'Leo Tolstoy', 'Chetan Bhagat', 'Gabriel Garcia Marquez', 'Khaled Hosseini', 'Hector Garcia, Francesc Miralles', 'Peter Thiel, Blake Masters']
+['Novel', 'Novel', 'Novel', 'Self-help and meditation', 'Self-help and meditation']
+['8th Impression', '1st Edition', '1st Edition', '1st Edition', '1st Edition', '1st Edition', '1st Edition', '1st Edition']

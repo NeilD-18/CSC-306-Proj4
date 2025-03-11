@@ -1,6 +1,5 @@
 import os
 from openai import OpenAI
-<<<<<<< HEAD
 import json  # Ensure json module is imported
 
 import sys
@@ -10,16 +9,9 @@ from agents.dataAgent import DataAgent  # Import the DataAgent class
 from dotenv import load_dotenv
 load_dotenv()  # Load environment variables from .env file
 
+api_key = os.getenv("OPENAI_API_KEY")
 
 class ZeroShotModel:
-=======
-import sys
-
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-from agents.dataAgent import DataAgent  # Import the DataAgent class
-
-class ZeroShotICLModel:
->>>>>>> 73168657f475fd87b2b799d4731d5816fc92cf51
     def __init__(self, api_key=None, competition_directory=None):
         """
         Initialize the ZeroShotModel with OpenAI API key and data directory.
@@ -116,7 +108,7 @@ class ZeroShotICLModel:
 # Example usage
 if __name__ == "__main__":
     # Initialize the model
-    model = ZeroShotICLModel()
+    model = ZeroShotModel()
 
     # Ask a question about a dataset
     dataset_name = "071_COL"

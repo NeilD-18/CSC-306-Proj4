@@ -2,10 +2,13 @@ import sys
 import os
 from openai import OpenAI
 
-
+import dotenv
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from agents.dataAgent import DataAgent  # Import the DataAgent class
+
+dotenv.load_dotenv()  # Load environment variables from .env file
+api_key = os.getenv("OPENAI_API_KEY")
 
 class ZeroShotModel:
     def __init__(self, api_key=None, competition_directory=None):
