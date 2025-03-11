@@ -7,6 +7,8 @@ import csv
 import os
 import json
 from tqdm import tqdm
+from models.zero_shot_baseline import ZeroShotModel
+from models.code_based_learning import CodeBasedModel
 
 from dotenv import load_dotenv
 load_dotenv()  # Load environment variables from .env file

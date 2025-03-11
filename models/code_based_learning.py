@@ -63,6 +63,13 @@ class CodeBasedModel:
         - Return **only one answer**.
 
         Now, generate the Python function.
+
+        Example response:
+        {{
+            "answer": "<your answer>",
+            "columns_used": ["<column1>", "<column2>"],
+            "explanation": "<brief reasoning>"
+        }}
         """
 
         try:
