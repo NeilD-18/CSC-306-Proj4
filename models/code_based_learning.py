@@ -2,19 +2,11 @@ import os
 from openai import OpenAI
 import pandas as pd
 import sys
-<<<<<<< HEAD
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))  # Add the parent directory to the system path
-
-from agents.dataAgent import DataAgent  # Import the DataAgent class
-from dotenv import load_dotenv
-load_dotenv()  # Load environment variables from .env file
-=======
 import json 
 import re 
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from agents.dataAgent import DataAgent  # Import the DataAgent class
->>>>>>> 73168657f475fd87b2b799d4731d5816fc92cf51
 
 class CodeBasedModel:
     def __init__(self, api_key=None, competition_directory=None):
@@ -25,20 +17,7 @@ class CodeBasedModel:
             api_key (str, optional): OpenAI API key. Defaults to environment variable.
             competition_directory (str, optional): Path to competition data directory.
         """
-<<<<<<< HEAD
-        # Set up API key
-        self.api_key = api_key or os.getenv("OPENAI_API_KEY")
-
-        # Check if API key is available
-        if not self.api_key:
-            raise ValueError(
-                "OpenAI API key is required. Either pass it as api_key parameter or "
-                "set the OPENAI_API_KEY environment variable."
-            )
-
-=======
     
->>>>>>> 73168657f475fd87b2b799d4731d5816fc92cf51
         # Initialize OpenAI client
         self.api_key = api_key or os.getenv("OPENAI_API_KEY")
 
@@ -88,6 +67,13 @@ class CodeBasedModel:
         - Return **only one answer**.
 
         Now, generate the Python function.
+
+        Example response:
+        {{
+            "answer": "<your answer>",
+            "columns_used": ["<column1>", "<column2>"],
+            "explanation": "<brief reasoning>"
+        }}
         """
 
         try:
@@ -183,7 +169,7 @@ class CodeBasedModel:
 
         # Get Python code from GPT
         generated_code = self.query_gpt_code(csv_data, column_names, question)
-        print("\n Generated Code:\n", generated_code)
+        #print("\n Generated Code:\n", generated_code)
 
         # Execute the generated code and return the answer
         return self.execute_generated_code(generated_code, df)
@@ -191,11 +177,7 @@ class CodeBasedModel:
 
 # Example usage
 if __name__ == "__main__":
-<<<<<<< HEAD
-    # Initialize the model
-=======
     # Initialize the CoT model
->>>>>>> 73168657f475fd87b2b799d4731d5816fc92cf51
     model = CodeBasedModel()
 
     # Ask a question about a dataset
@@ -203,13 +185,4 @@ if __name__ == "__main__":
     question = "What is the most expensive city in this dataset?"
 
     response = model.ask_question(dataset_name, question)
-<<<<<<< HEAD
-    try:
-        response_json = json.loads(response)
-        print(response_json["answer"])
-    except json.JSONDecodeError as e:
-        print(f"Failed to decode JSON response: {e}")
-        print(f"Response: {response}")
-=======
     print(response)
->>>>>>> 73168657f475fd87b2b799d4731d5816fc92cf51

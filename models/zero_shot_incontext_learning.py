@@ -11,7 +11,7 @@ load_dotenv()  # Load environment variables from .env file
 
 api_key = os.getenv("OPENAI_API_KEY")
 
-class ZeroShotModel:
+class ZeroShotModelICL:
     def __init__(self, api_key=None, competition_directory=None):
         """
         Initialize the ZeroShotModel with OpenAI API key and data directory.
@@ -108,7 +108,7 @@ class ZeroShotModel:
 # Example usage
 if __name__ == "__main__":
     # Initialize the model
-    model = ZeroShotModel()
+    model = ZeroShotModelICL()
 
     # Ask a question about a dataset
     dataset_name = "071_COL"

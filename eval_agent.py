@@ -1,10 +1,12 @@
 from databench_eval import Runner, Evaluator
 from databench_eval.utils import load_qa
-from models.zero_shot_incontext_learning import ZeroShotModel
+from models.zero_shot_incontext_learning import ZeroShotModelICL
 import csv
 import os
 import json
 from tqdm import tqdm
+from models.zero_shot_baseline import ZeroShotModel
+from models.code_based_learning import CodeBasedModel
 
 from dotenv import load_dotenv
 load_dotenv()  # Load environment variables from .env file
@@ -13,7 +15,7 @@ load_dotenv()  # Load environment variables from .env file
 class EvalAgent:
     def __init__(self):
         self.api_key = os.getenv("OPENAI_API_KEY")
-        self.model = ZeroShotModel(api_key=self.api_key)
+        self.model = ZeroShotModelICL(api_key=self.api_key)
     
     def model_call(self, prompts: list[str], model=None) -> list[str]:
         """ 
@@ -135,7 +137,11 @@ class EvalAgent:
 # Example usage:
 if __name__ == "__main__":
     agent = EvalAgent()
-    agent.evaluate(save_path="responses.txt", test_qa_path='competition/test_qa.csv', model=None)
+    zero_shot = ZeroShotModel(api_key=agent.api_key)
+    zero_shot_icl = ZeroShotModelICL(api_key=agent.api_key)
+    code_based = CodeBasedModel(api_key=agent.api_key)
+
+    agent.evaluate(save_path="code_based_learning_response.txt", test_qa_path='competition/test_qa.csv', model=code_based)
     
     # Alternative batch processing approach:
     # test_qa = agent.load_test_qa()

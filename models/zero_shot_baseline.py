@@ -51,6 +51,13 @@ class ZeroShotModel:
 
         Answer the following question directly, without explanation:
         {question}
+
+        Example response:
+        {{
+            "answer": "<your answer>",
+            "columns_used": ["<column1>", "<column2>"],
+            "explanation": "<brief reasoning>"
+        }}
         """
 
         response = self.client.chat.completions.create(
