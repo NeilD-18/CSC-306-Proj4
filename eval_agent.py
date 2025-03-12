@@ -148,10 +148,10 @@ if __name__ == "__main__":
     icl = ZeroShotModelICL2(api_key=api_key)
     baseline = ZeroShotModel(api_key=api_key)
     pe = PromptEngineering(api_key=api_key)
-    agent.evaluate(save_path="responses_Cot_4o-mini.txt", test_qa_path='competition/test_qa.csv',model=cot)
+    # agent.evaluate(save_path="responses_Cot_4o-mini.txt", test_qa_path='competition/test_qa.csv',model=cot)
     # agent.evaluate(save_path="responses_zero_shot_icl_4o-mini.txt", test_qa_path='competition/test_qa.csv',model=icl)
     # agent.evaluate(save_path="responses_zero_shot_baseline_4o-mini.txt", test_qa_path='competition/test_qa.csv',model=baseline)
-    # agent.evaluate(save_path="responses_pe_4o-mini.txt", test_qa_path='competition/test_qa.csv',model=pe)
+    agent.evaluate(save_path="responses_pe_4o-mini.txt", test_qa_path='competition/test_qa.csv',model=pe)
     
     # Alternative batch processing approach:
     # test_qa = agent.load_test_qa()

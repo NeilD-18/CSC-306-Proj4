@@ -41,10 +41,20 @@ class PromptEngineering:
         """
         Queries OpenAI's GPT model using a simple, direct prompt with the given tabular data and question.
         """
-        prompt = f"""
-        You are an AI answering questions based on tabular data.
+        prompt = f"""You are a precise data analyst working with tabular data. Your task is to:
+        1. Analyze the provided dataset carefully
+        2. Answer the question with extreme precision
+        3. Use ONLY the data presented
+        4. Format answers exactly as specified below
 
-        Here is the dataset:
+        IMPORTANT FORMATTING RULES:
+        - Booleans: ONLY 'True' or 'False'
+        - Numbers: Raw values without units (e.g., 42 not '42 dollars')
+        - Text: Exact matches without quotes
+        - Lists: Python format with commas and spaces [1, 2, 3] or ['a', 'b', 'c']
+        - NO explanations in the answer
+        - NO units or symbols
+        - NO additional context
         ```
         {csv_data}
         ```
@@ -59,6 +69,7 @@ class PromptEngineering:
         - List of integers
         - List of floats
 
+        Make your response is in a JSON format with the following keys
         Example response:
         {{
             "answer": "<your answer>",
