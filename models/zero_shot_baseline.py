@@ -51,13 +51,7 @@ class ZeroShotModel:
 
         Answer the following question directly, without explanation:
         {question}
-        Make sure the answer you provide is simple and either of the following data-type:
-        - String
-        - Integer
-        - Float
-        - List of strings
-        - List of integers
-        - List of floats
+        
 
         Example response:
         {{
@@ -68,7 +62,7 @@ class ZeroShotModel:
         """
 
         response = self.client.chat.completions.create(
-            model="gpt-4o-mini",  
+            model="gpt-3.5-turbo",  
             messages=[
             {"role": "system", "content": "You are a data analyst answering questions about tabular data."},
             {"role": "user", "content": prompt}

@@ -156,9 +156,9 @@ if __name__ == "__main__":
     cbl = CodeBasedModel(api_key=api_key)
     
     #agent.evaluate(save_path="responses_cbl_4o-mini.txt", test_qa_path='competition/test_qa.csv',model=cbl)
-    agent.evaluate(save_path="responses_Cot_3.5-turbou.txt", test_qa_path='competition/test_qa.csv',model=cot)
+    # agent.evaluate(save_path="responses_Cot_3.5-turbou.txt", test_qa_path='competition/test_qa.csv',model=cot)
     # agent.evaluate(save_path="responses_zero_shot_icl_4o-mini.txt", test_qa_path='competition/test_qa.csv',model=icl)
-    # agent.evaluate(save_path="responses_zero_shot_baseline_4o-mini.txt", test_qa_path='competition/test_qa.csv',model=baseline)
+    agent.evaluate(save_path="responses_zero_shot_baseline_3.5-turbo.txt", test_qa_path='competition/test_qa.csv',model=baseline)
     #agent.evaluate(save_path="responses_pe_4o-mini.txt", test_qa_path='competition/test_qa.csv',model=pe)
     
     # Alternative batch processing approach:

@@ -1,0 +1,108 @@
+Breakdown for model: responses_zero_shot_baseline_3.5-turbo.txt 
+Accuracy by dataset:
+------------------------------
+Dataset 66: 0.50
+Dataset 67: 0.41
+Dataset 68: 0.21
+Dataset 69: 0.26
+Dataset 70: 0.31
+Dataset 71: 0.39
+Dataset 72: 0.21
+Dataset 73: 0.59
+Dataset 74: 0.34
+Dataset 75: 0.28
+Dataset 76: 0.22
+Dataset 77: 0.10
+Dataset 78: 0.13
+Dataset 79: 0.11
+Dataset 80: 0.02
+------------------------------
+Overall Accuracy: 0.27
+
+
+Breakdown for model: model_responses/responses_PE.txt 
+Accuracy by dataset:
+------------------------------
+Dataset 66: 0.50
+Dataset 67: 0.38
+Dataset 68: 0.21
+Dataset 69: 0.17
+Dataset 70: 0.38
+Dataset 71: 0.36
+Dataset 72: 0.21
+Dataset 73: 0.56
+Dataset 74: 0.31
+Dataset 75: 0.31
+Dataset 76: 0.19
+Dataset 77: 0.23
+Dataset 78: 0.23
+Dataset 79: 0.24
+Dataset 80: 0.48
+------------------------------
+Overall Accuracy: 0.32
+
+
+Breakdown for model: model_responses/responses_Cot_3.5-turbo.txt 
+Accuracy by dataset:
+------------------------------
+Dataset 66: 0.50
+Dataset 67: 0.34
+Dataset 68: 0.21
+Dataset 69: 0.20
+Dataset 70: 0.34
+Dataset 71: 0.39
+Dataset 72: 0.23
+Dataset 73: 0.47
+Dataset 74: 0.23
+Dataset 75: 0.31
+Dataset 76: 0.19
+Dataset 77: 0.16
+Dataset 78: 0.23
+Dataset 79: 0.26
+Dataset 80: 0.52
+------------------------------
+Overall Accuracy: 0.31
+
+
+Breakdown for model: model_responses/responses_zero_shot_icl.txt 
+Accuracy by dataset:
+------------------------------
+Dataset 66: 0.45
+Dataset 67: 0.28
+Dataset 68: 0.15
+Dataset 69: 0.23
+Dataset 70: 0.07
+Dataset 71: 0.22
+Dataset 72: 0.13
+Dataset 73: 0.59
+Dataset 74: 0.29
+Dataset 75: 0.38
+Dataset 76: 0.19
+Dataset 77: 0.19
+Dataset 78: 0.23
+Dataset 79: 0.24
+Dataset 80: 0.52
+------------------------------
+Overall Accuracy: 0.28
+
+
+Breakdown for model: model_responses/responses_cbl_4o-mini33percent.txt 
+Accuracy by dataset:
+------------------------------
+Dataset 66: 0.50
+Dataset 67: 0.38
+Dataset 68: 0.24
+Dataset 69: 0.20
+Dataset 70: 0.28
+Dataset 71: 0.50
+Dataset 72: 0.21
+Dataset 73: 0.56
+Dataset 74: 0.34
+Dataset 75: 0.28
+Dataset 76: 0.25
+Dataset 77: 0.26
+Dataset 78: 0.15
+Dataset 79: 0.24
+Dataset 80: 0.52
+------------------------------
+Overall Accuracy: 0.33

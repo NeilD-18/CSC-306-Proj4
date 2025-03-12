@@ -1,0 +1,525 @@
+Yes
+Yes
+No
+No
+No
+Yes
+There are more employees who travel frequently than those who work in the HR department.
+Yes
+Yes
+Laboratory Technician
+Sales
+Divorced
+Life Sciences
+Travel_Rarely
+Female
+3
+Other
+36.8
+9
+25
+4878
+124
+8
+1
+8
+8 years
+[3, 4]
+[2028, 2090, 2426, 2661, 2670]
+1, 2, 3, 4, 5
+[23, 22, 21, 20, 17]
+29, 32, 35, 36, 38
+Laboratory Technician, Research Scientist, Manufacturing Director
+Research & Development, Sales
+Single, Married, Divorced
+Life Sciences, Other, Medical
+Travel_Rarely, Travel_Frequently, Non-Travel
+Yes, No
+1, 2, 3, 4
+1, 2, 3
+No
+Yes
+No
+11 reviews give ratings related to the location.
+No
+No
+No
+No
+No
+Yes
+2011
+3.5
+5.0
+0
+charlietrisj
+1910
+20
+40
+12.5
+5047
+2009
+1
+228
+2010, 2011, 2012, 2009
+40, 36, 35, 23, 19
+Failed to decode JSON response: Unterminated string starting at: line 4 column 20 (char 253)
+['marknthedark', 'Largeandy', 'treasurespast', 'IndustryBuff', 'oahulady66', 'cmd123', 'euronovice', 'a300zx4pak', 'mreav', 'charlietrisj', 'busyvatraveler']
+[98798, 93340, 84087, 82443, 93889]
+2010, 2011, 2009, 2012
+Yes
+EAST ASIA AND PACIFIC
+No
+No
+Yes
+Yes
+No
+Request for Quotations
+Western and Central Africa
+Federated States of Micronesia
+Consultant Services
+Eastern and Southern Africa
+Burkina Faso
+Agriculture, Fishing and Forestry
+800433.3
+3
+20
+Average procurement amount is $108,073.69
+754040.0
+298,682.69
+10
+800433.3, 716716.34, 186884.26
+Yes, there are contracts awarded after the 2020 fiscal year had ended.
+754040.0, 999999.0, 879159.0, 879141.0, 879138.0
+2024, 2025, 2023
+{'2025': 292203.24, '2024': 2060137.02, '2023': 13222.93}
+Contract 1: 99,996.0 USD, Contract 2: 100,000.0 USD
+[800433.3, 716716.34, 67925.87, 69088.82]
+Burkina Faso, Nigeria, Niger, Ethiopia, Somalia
+Western and Central Africa, Eastern and Southern Africa, LATIN AMERICA AND CARIBBEAN, EAST ASIA AND PACIFIC
+Request for Quotations, Request for Bids, Individual Consultant Selection, Consultant Qualification Selection
+Ghana, Micronesia, Burkina Faso, Nigeria
+Post, Prior
+Post, Prior
+Yes
+2
+Yes
+No
+Yes
+Yes
+No
+No
+Attractions
+Attractions
+Automotive
+Automotive
+150
+Commercial Trucks
+Attractions
+23
+1
+3
+7
+2
+1
+1
+Yes
+19
+Attractions, Auto Body Styles, Automotive
+{'Attractions': 12, 'Automotive': 7}
+[1, 1]
+{'Tier 1': 12, 'Tier 2': 12, 'Tier 3': 6, 'Tier 4': 1}
+Attractions, Automotive
+Attractions, Automotive
+['Auto Body Styles', 'Bars & Restaurants', 'Amusement and Theme Parks', 'Automotive']
+Tier 1, Tier 2
+Attractions, Attractions, Attractions, Attractions
+150, 1, 2
+150, 1, 2
+Yes, there is a vegan product in the dataset.
+Yes
+Yes
+Yes, the product Seitán a la plancha is palm oil free.
+Yes, there is a product belonging to the category 'Plant-based foods and beverages'.
+No
+No
+Yes
+Hacendado
+Spain
+Hacendado
+1
+Hacendado
+elcoco
+15
+3
+15
+6
+20
+19
+1
+['00001522']
+['Seitán a la plancha']
+To be completed
+No preservatives, Green Dot, Vegetarian, Vegan, No gluten
+Hacendado, Mercadona
+3 stores for Hacendado and 3 stores for Mercadona
+Spain, United States, United Kingdom
+{'Spain': 21, 'United States': 1, 'United Kingdom': 1}
+Yes
+Yes
+Yes
+Yes
+No
+No
+Yes
+Yes
+Switzerland
+Barbados
+Barbados
+Switzerland
+Bahamas
+Bahamas
+Barbados
+101.1
+46.5
+20
+74.86
+111.8
+67.2
+126.6
+3
+46.5, 39.2, 67.2, 26.2, 26.4
+62.4, 62.7, 63.1, 63.2, 63.3
+[158.7, 54.6, 120.3, 111.1, 43.5]
+Switzerland: Groceries Index - 109.1, Restaurant Price Index - 97.0, Local Purchasing Power Index - 158.7
+97.0, 83.3, 86.8, 50.4, 73.5
+Barbados, Puerto Rico, Finland, New Zealand, Austria
+United States,142.3; Luxembourg,182.5; Switzerland,158.7; Norway,114.7; Denmark,127.2
+Switzerland, Bahamas, Iceland, Singapore, Barbados
+Switzerland, Iceland, Bahamas
+Barbados, Puerto Rico, Iceland
+Australia, Austria, Canada, New Zealand, Ireland
+Switzerland, Luxembourg, United States, Norway, Denmark
+Barbados, Puerto Rico, Iceland
+Yes
+Yes
+No
+No
+No
+No
+Yes
+Yes
+5
+2
+4.0
+2.5
+2
+5
+3
+Yes
+337
+107.5
+11
+8.5
+4.0
+0.823
+433
+4
+337, 330, 328, 327, 325
+0
+2
+[118, 115, 112, 111, 110]
+7.9, 8.0, 8.0, 8.0, 8.0
+[4.5, 4.0, 3.5, 3.5, 3.5]
+[4.5, 4.5, 4.5, 4.5, 4.0]
+TOEFL Score: 118, 115, 112, 111, 110
+337, 330
+8.0, 8.0
+[4, 5, 4, 4, 4]
+[2, 2, 3, 3, 3]
+Failed to decode JSON response: Unterminated string starting at: line 2 column 15 (char 16)
+[4.5, 4.0, 3.5, 3.5, 4.5]
+[4.5, 4.5, 4.5, 4.0, 3.5]
+No
+True
+True
+Yes
+Yes
+Yes
+Yes
+No
+Yes
+southeast
+male
+yes
+southeast
+male
+True
+0
+northeast
+no
+42.13
+1.05
+4
+236928.88858
+18
+2
+3
+30.78
+40.3, 39.82
+[39611.7577, 36837.467, 28923.13692]
+18, 19, 19, 25, 23
+19, 18, 19
+['yes']
+southeast, southwest, southeast
+Yes
+Yes
+No
+Yes
+Yes
+Yes
+45.5
+Yes
+No
+120 kg
+74 kg
+Deadlift
+398
+10
+5
+4
+179
+Jessica Wilson lifted 269 kg in the Bench Press category.
+Emily Davis
+1610
+132
+347
+4
+398, 396, 396
+120, 120, 132, 133, 178
+Weight Class: 120 kg - Total Lift: 1094 kg, Weight Class: 74 kg - Total Lift: 1194 kg, Weight Class: 105 kg - Total Lift: 508 kg, Weight Class: 66 kg - Total Lift: 498 kg, Weight Class: 52 kg - Total Lift: 675 kg
+Failed to decode JSON response: Unterminated string starting at: line 12 column 20 (char 235)
+Emily Davis - Bench Press (235 kg), Laura Taylor - Deadlift (273 kg)
+359, 265, 264
+Jessica Wilson, Emily Davis, Laura Taylor, Sarah Thomas, Jane Smith
+John Doe, Michael Johnson, Chris Brown, Daniel Lee, Matthew Anderson
+74 kg, 120 kg, 52 kg
+Laura Taylor, Sarah Thomas, Matthew Anderson, Jane Smith, Laura Taylor
+Squat, Deadlift, Bench Press
+Bench Press, Deadlift, Squat
+Yes, there are conditions with mortality rates higher than 300.
+No
+Yes
+Yes
+Yes
+Yes
+No region appears more than 50 times.
+Yes
+HHS Region 04
+Heart disease
+Male
+Urban
+HHS Region 04
+276.4
+0.4
+6
+3986.5
+1.25
+37.67
+5
+144.3
+276.4, 248.8, 246.0, 229.0, 226.8
+0.4, 0.4, 0.5, 0.5, 0.5
+115.1, 124.5, 132.2, 138.1, 139.6
+Region 04 Urban Male: 64.6, Region 02 Urban Male: 38.8, Region 03 Urban Male: 28.6, Region 01 Urban Male: 38.6
+HHS Region 03, Urban, Female, Heart disease, 138.1, 0.5
+Heart disease
+HHS Region 04, HHS Region 02, HHS Region 03
+Region, Status
+False
+False
+False
+True
+True
+True
+False
+Yes, Kevin Durant has a field goal record better than 9/10 for the 2012-13 season.
+Kevin Durant
+Kevin Durant
+OKC
+Kevin Durant
+GSW
+Russell Westbrook
+Russell Westbrook
+145
+11682
+640
+66.67%
+82
+607
+0
+2
+105
+886, 670, 640
+607, 551, 539
+1. Kevin Durant - 2280 points
+2. Kobe Bryant - 2133 points
+3. LeBron James - 2036 points
+4. James Harden - 2023 points
+145, 142, 129
+105, 91, 56
+Brook Lopez, Paul Pierce, Brandon Jennings, JR Smith, Kemba Walker
+Kevin Durant, LeBron James, David Lee
+OKC, LAL, MIA, HOU, NYK
+OKC, NYK, POR, GSW, MIA
+Russell Westbrook, Stephen Curry
+Kevin Durant, LeBron James, LaMarcus Aldridge
+Russell Westbrook, Damian Lillard, Rajon Rondo, Chris Paul
+No
+Yes
+Yes
+Yes
+No
+Yes
+Yes
+20
+No
+1
+19
+180
+1
+23.1
+180
+1.40
+22.7
+20
+17
+19
+0.035
+2.86
+180, 165, 165
+[17, 16, 18, 19]
+[]
+[145, 146]
+0, 1
+[0]
+[147, 156]
+[]
+[18, 19]
+Yes
+Yes
+No
+No
+No
+Yes
+Yes
+No
+Yes
+11
+5
+January
+11
+Thursday
+August
+1
+August
+26.4
+0.9
+0.0
+9
+49.95
+625.1
+4.978
+20
+26.4, 26.2, 26.2
+[70.8, 77.5, 80.8, 94.3, 97.1]
+[0.0, 8, 7, 6, 5]
+27, 27, 27, 29
+[6.7, 6.7, 6.7, 6.7, 6.7]
+0.0
+[26.2, 27.4, 27.9]
+['August', 'December', 'February', 'January', 'November']
+Wednesday, Monday, Tuesday
+August, November
+Tuesday, Sunday, Thursday
+February, January, November, August
+Sunday, Thursday, Saturday, Monday, Wednesday
+Monday, Thursday, Wednesday, Tuesday, Saturday, Sunday
+No
+No
+No
+No
+No
+Yes
+Yes
+Yes
+Lower Manhattan
+Tea
+Sun
+Drinking Chocolate
+Jan
+8
+Lower Manhattan
+Coffee - Gourmet brewed coffee - Ethiopia Rg
+2
+11
+109.2
+Yes, our stores are open on Sunday.
+3.23
+20
+2
+9,00 US$
+0
+2, 2, 2
+5, 8
+2.0, 2.0, 2.0, 2.5
+9.00 US$, 7.00 US$, 6.20 US$
+[7, 8]
+Lower Manhattan, Hell's Kitchen
+[]
+Gourmet brewed coffee, Brewed Chai tea, Hot chocolate
+Jan
+Sun
+5, 8
+['Dark chocolate Lg', 'Hot chocolate']
+Ouro Brasileiro
+True
+True
+True
+False
+False
+False
+Yes
+Yes
+Sapiens A Brief History Of Humankind by Yuval Noah Harari
+Novel
+Thousand
+3
+Yuval Noah Harari
+80 pages
+BPB Publications (India)
+6.0
+Islamic Books
+8th Impression
+10078
+6
+7.05
+9
+498
+2
+6
+2
+498, 640, 80, 512, 492
+498, 640, 80, 512, 492
+[25.0, 16.0, 13.0, 5.0]
+[492]
+4.0, 6.0, 21.0, 38.0, 18.0
+[0.0, 2.0, 5.0, 13.0, 6.0]
+[498]
+Train to Pakistan
+History and Tradition, Business, Investment and Economics, Islamic Books, Islamic Books, Computer Science & Engineering
+Harish Bhat , B.S. Badan, Gianna Moscardo (Editor), Bruce Prideaux (Editor), Eric Laws (Editor)
+['Madinah Arabic Reader 1', '400 Days', 'Train to Pakistan']
+History and Tradition, Business, Investment and Economics, Novel
+Yuval Noah Harari, Benjamin Graham, M.A.S. Abdel Haleem (Translator), Leo Tolstoy, Chetan Bhagat, Gabriel Garcia Marquez, Khaled Hosseini, Hector Garcia, Francesc Miralles, Peter Thiel, Blake Masters
+Novel, Novel, Novel, Self-help and meditation, Self-help and meditation
+8th Impression, 1st Edition 2011, 1st Edition, 1st Edition, 1st Edition, 1st Edition, 1st Edition, 1st Edition, 1st Edition, 1st Edition
