@@ -1,0 +1,18 @@
+Accuracy of each model for default compare:
+
+Zero-shot baseline:
+Accuracy: 0.31
+
+Zero-shot ICL:
+Accuracy: 0.28
+
+CoT:
+Accuracy: 0.31
+
+code-based-prompting:
+
+Prompt-Engineering:
+Accuracy: 0.32
+
+Zero-shot baseline 4o-mini:
+Accuracy: 0.29

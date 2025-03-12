@@ -5,7 +5,7 @@ if __name__ == "__main__":
     evaluator = Evaluator()
     
     # Read the files
-    with open("responses_zero_shot_baseline.txt", "r") as f:
+    with open("responses_zero_shot_icl.txt", "r") as f:
         responses = f.read().splitlines()
     with open("answers/answers.txt", "r") as f:
         answers = f.read().splitlines()
