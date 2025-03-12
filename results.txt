@@ -1,0 +1,15 @@
+Accuracy of each model:
+
+Zero-shot baseline:
+Accuracy: 0.012996941896024464
+Lite accuracy: 0.01834862385321101
+
+Zero-shot ICL:
+Accuracy: 0.009938837920489297
+Lite accuracy: 0.01529051987767584
+
+CoT:
+Accuracy: 0.012232415902140673
+Lite accuracy: 0.016819571865443424
+
+code-based-prompting:

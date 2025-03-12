@@ -51,6 +51,13 @@ class ZeroShotModel:
 
         Answer the following question directly, without explanation:
         {question}
+        Make sure the answer you provide is simple and either of the following data-type:
+        - String
+        - Integer
+        - Float
+        - List of strings
+        - List of integers
+        - List of floats
 
         Example response:
         {{

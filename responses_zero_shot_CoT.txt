@@ -1,0 +1,522 @@
+No
+Yes
+No
+No
+No
+No
+Yes
+Yes
+Yes
+Laboratory Technician
+Sales
+Divorced
+Life Sciences
+Travel_Frequently
+Female
+3
+Other
+36
+9
+25
+The median monthly income of our employees is $4919.
+The sum of the miles employees have to travel to get to work is 158.
+Average total working years for employees in sales is 7.5 years
+2
+7
+8
+[3, 4]
+[1009, 1015, 1051, 1052, 1081]
+The different education levels of our employees can be classified into: 2, 1, 3, 4, 5
+[23, 22, 21, 20, 17]
+[35, 34, 32, 29, 38]
+['Laboratory Technician', 'Research Scientist', 'Sales Executive']
+['Research & Development', 'Sales']
+['Single', 'Married', 'Divorced']
+['Life Sciences', 'Other', 'Medical']
+['Travel_Rarely', 'Travel_Frequently', 'Non-Travel']
+['Yes', 'No']
+[1, 2, 3, 4]
+[1, 2, 3]
+No
+No
+No
+12 reviews give ratings related to the location
+Yes
+No
+No
+No
+No
+No
+2011
+3.5
+5.0
+2
+charlietrisj
+1070
+20
+40
+10.5
+5046
+2004
+1
+315
+['2011', '2010', '2012', '2009']
+[40, 36, 35, 23, 19]
+['marknthedark', 'Largeandy', 'bigdog717', 'treasurespast', 'oahulady66', 'euronovice', 'a300zx4pak', 'mreav', 'busyvatraveler']
+['marknthedark', 'Largeandy', 'bigdog717', 'treasurespast', 'oahulady66', 'euronovice', 'a300zx4pak', 'mreav', 'busyvatraveler']
+[111492, 108562, 94354, 98798, 93889]
+['2010', '2011', '2012', '2009']
+Yes
+Latin America and Caribbean
+No
+No
+Yes
+Yes
+No
+Request for Quotations
+Western and Central Africa
+Federated States of Micronesia
+Consultant Services
+Eastern and Southern Africa
+Burkina Faso
+Agriculture, Fishing and Forestry
+800433.3
+3
+22
+The average procurement amount across all entries is $108,073.67
+754040.0
+Failed to decode JSON response: Expecting property name enclosed in double quotes: line 2 column 19 (char 20)
+10
+[800433.3, 716716.34, 67925.87]
+Yes
+[754040.0, 999999.0, 879159.0, 879141.0, 879138.0]
+['2024', '2025', '2023']
+Failed to decode JSON response: Expecting ',' delimiter: line 2 column 25 (char 26)
+[99696.0, 100000.0]
+[716716.34, 369866.76, 186884.26, 166464.39]
+['Burkina Faso', 'Nigeria', 'Niger', 'Ghana', 'Ethiopia']
+['Western and Central Africa', 'Eastern and Southern Africa', 'LATIN AMERICA AND CARIBBEAN', 'World']
+['Request for Quotations', 'Request for Bids', 'Individual Consultant Selection', 'Consultant Qualification  Selection']
+['Ghana', 'Micronesia, Federated States of', 'Burkina Faso', 'Nigeria']
+['Post', 'Prior']
+['Post', 'Prior']
+Yes
+No
+Yes
+No
+Yes
+No
+No
+No
+Attractions
+Attractions
+Automotive
+Bars & Restaurants
+150
+Commercial Trucks
+Attractions
+12
+1
+3
+12
+2
+1
+1
+No
+13
+['Auto Body Styles', 'Automotive', 'Attractions']
+{'Attractions': 12, 'Automotive': 7}
+[1, 1]
+[12, 10, 6, 2]
+['Commercial Trucks', 'Convertible', 'Coupe']
+['Attractions', 'Automotive']
+['Auto Body Styles', 'Amusement and Theme Parks', 'Bars & Restaurants', 'Casinos & Gambling']
+Attractions
+['Attractions', 'Automotive']
+['150', '1', '2']
+['150', '1']
+Yes
+Yes
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Yes
+Yes
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+No
+Yes
+Hacendado
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Hacendado
+1
+Hacendado
+elcoco
+14
+3
+15
+6
+20
+19
+2
+['00001522']
+['Seitán a la plancha']
+Hacendado
+No preservatives, Green Dot, Vegetarian, Vegan, No gluten
+['Hacendado', 'Mercadona']
+2
+['Spain', 'United States', 'United Kingdom']
+Spain: 21 products, United States: 1 product, United Kingdom: 1 product
+Yes
+Yes
+Yes
+No
+No
+No
+Yes
+Yes
+Switzerland
+Barbados
+Barbados
+Switzerland
+Bahamas
+Bahamas
+Barbados
+101.1
+46.5
+20
+74.86
+The difference between the highest and lowest Restaurant Price Index is 111.7
+76.7
+129.6
+3
+[46.5, 36.7, 39.2, 67.2, 19.0]
+[62.4, 62.7, 63.1, 63.2, 63.3]
+[158.7, 54.6, 120.3, 111.1, 43.5]
+['Switzerland', 109.1, 101.1, 46.5]
+[97.0, 83.3, 86.8, 50.4, 73.5]
+['Puerto Rico', 'Barbados', 'Netherlands', 'Finland', 'New Zealand']
+[99.4, 101.1, 102.4, 102.4, 103.5]
+['Switzerland', 'Bahamas', 'Iceland', 'Singapore', 'Barbados']
+['Switzerland', 'Iceland', 'Bahamas']
+['Barbados', 'Puerto Rico', 'Finland']
+['Austria', 'Canada', 'New Zealand', 'Ireland', 'France']
+['Luxembourg', 'Switzerland', 'United States', 'Norway', 'Denmark']
+['Barbados', 'Puerto Rico', 'Iceland']
+Yes
+Yes
+No
+No
+No
+No
+Yes
+Yes
+5
+2
+4.0
+2.0
+2
+Rating 5
+3
+Yes
+337
+109.0
+11
+8.5
+4.0
+0.675
+Sum of English test scores for applicants with an SOP better than 4 is 433.
+4
+[337, 330, 328, 327, 325]
+0
+2
+[118, 115, 112, 111, 110]
+[7.9, 8.0, 8.0, 8.0, 8.0]
+[4.5, 4.0, 3.5, 3.0, 3.0]
+[4.5, 4.5, 4.5, 4.5, 4.0]
+[118, 115, 112, 111, 110]
+[337, 330]
+[8.87, 8.0]
+[5, 4, 4, 4, 4]
+[2, 2, 3, 3, 3]
+['SOP: 4.5, LOR: 4.5, CGPA: 9.65', 'SOP: 4.0, LOR: 4.5, CGPA: 8.87', 'SOP: 4.0, LOR: 4.5, CGPA: 9.1', 'SOP: 4.0, LOR: 4.5, CGPA: 9.0']
+[4.5, 4.0, 3.5, 3.0, 3.5]
+[2.5, 3.0, 3.0, 3.0, 3.0]
+No
+Yes
+True
+Yes
+Yes
+Yes
+Yes
+No
+Yes
+southeast
+male
+yes
+southeast
+female
+No
+0
+northeast
+non-smoker
+42.13
+Average number of children is 1.1
+4
+sum of all medically related charges in the dataset is 168545.53199
+18
+2
+4
+30.78
+[40.3, 39.82]
+[39611.7577, 36837.467, 28923.13692]
+[18, 19, 25, 23, 19]
+[18, 19, 19]
+['yes']
+['southeast', 'southwest', 'southeast']
+Yes
+Yes
+No
+Yes
+No
+Yes
+No
+Yes
+No
+120 kg
+74 kg
+Squat
+398
+9
+6
+3
+398
+Jessica Wilson lifted 269 kg in the bench press category, which is the best record set by women.
+Laura Taylor
+1537
+132
+346
+3
+[398, 396, 396]
+[111, 120, 120, 132, 133]
+['120 kg', '120 kg', '120 kg', '105 kg', '105 kg']
+[47, 24, 22]
+['Emily Davis - Squat - 359 kg', 'Laura Taylor - Deadlift - 273 kg']
+[359, 265, 264]
+['Jessica Wilson', 'Emily Davis', 'Laura Taylor', 'Sarah Thomas', 'Jane Smith']
+['John Doe', 'Michael Johnson', 'Chris Brown', 'Matthew Anderson', 'Daniel Lee']
+['120 kg', '74 kg', '105 kg']
+['Laura Taylor', 'Matthew Anderson', 'Jane Smith']
+['Squat', 'Deadlift']
+['Bench Press', 'Deadlift', 'Squat']
+No, there is no condition where the mortality rate is more prevalent than a condition with a rate of 300.
+No, there are more cases recorded in rural areas overall.
+Yes
+Yes
+No
+Yes
+No
+Yes
+HHS Region 04
+Heart disease
+Male
+Urban
+HHS Region 04
+276.4
+0.4
+6
+The total sum of all death rate values is 3766.5
+Average error recorded is 1.25
+45.67
+5
+144.3
+[276.4, 248.8, 246.0, 229.0, 226.8]
+[0.4, 0.4, 0.5, 0.5, 0.5]
+[115.1, 124.5, 132.2, 138.1, 139.6]
+[61.6, 50.2, 47.8, 46.6]
+[0.4, 0.5, 0.5, 0.6, 0.6]
+Heart disease
+['HHS Region 04', 'HHS Region 02', 'HHS Region 03']
+['Urban', 'Rural']
+False
+False
+False
+True
+True
+True
+False
+Yes, Kevin Durant has a field goal record better than 9/10 for the 2012-13 season.
+Kevin Durant
+Kevin Durant
+OKC
+Kevin Durant
+OKC
+Russell Westbrook
+Stephen Curry
+145
+10976
+1911
+63.6%
+82
+607
+0
+2
+105
+[886, 886, 886]
+[551, 539, 531]
+[2280, 2133, 2036, 2023]
+[145, 142, 129]
+[105, 91, 56]
+['Brook Lopez', 'Paul Pierce', 'Brandon Jennings', 'Kemba Walker', 'JR Smith']
+['Kevin Durant', 'LeBron James', 'David Lee']
+['OKC', 'NYK', 'MIA', 'HOU', 'GSW']
+['NYK', 'OKC', 'GSW', 'MIA', 'POR']
+['Chris Paul', 'Mike Conley']
+['Kevin Durant', 'LeBron James', 'Brook Lopez']
+['Russell Westbrook', 'Rajon Rondo', 'Chris Paul', 'Greivis Vasquez']
+No
+Yes
+Yes
+Yes
+No
+Yes
+Yes
+19
+No
+1
+17
+165
+1
+23.1
+180
+1.40
+The average BMI across all women is 22.8
+19
+17
+0
+0.45
+3.0
+[165, 165, 156]
+[17, 16, 18, 19]
+[]
+[145, 146]
+0, 1
+0
+[147, 156]
+[]
+[17, 18]
+Yes
+Yes
+No
+No
+No
+No
+No
+No
+Yes
+0
+1
+January
+11
+Wednesday
+January
+11
+Saturday
+26.4
+0.9
+0.0
+4
+48.05
+626.8
+3.619
+20
+[26.4, 26.2, 26.2]
+[70.8, 77.5, 80.8, 94.3, 97.1]
+[5, 4, 6]
+[27, 27, 27, 27]
+[6.7, 6.7, 6.7, 6.7, 6.7]
+[0.0]
+[26.2, 27.4, 27.9]
+['January', 'August', 'November', 'December']
+['Wednesday', 'Monday', 'Tuesday']
+['August', 'November']
+['Thursday', 'Sunday', 'Tuesday']
+['January', 'November']
+['Saturday', 'Wednesday', 'Thursday']
+['Monday', 'Thursday', 'Wednesday', 'Tuesday', 'Saturday', 'Sunday']
+No
+No
+No
+No
+No
+Yes
+Yes
+Yes
+Lower Manhattan
+Tea
+Sun
+Drinking Chocolate
+Jan
+8
+Lower Manhattan
+Coffee - Gourmet brewed coffee - Ethiopia Rg
+2
+13
+97.5
+Yes
+3.28
+18
+2
+9.00 US$
+0
+[2, 2, 2]
+[5, 8]
+[2.0, 2.0, 2.0, 2.5]
+[9.0, 7.0, 6.0]
+[7, 8]
+['Lower Manhattan', "Hell's Kitchen"]
+[]
+['Gourmet brewed coffee', 'Brewed Chai tea', 'Hot chocolate']
+['Jan']
+['Sun']
+[5, 8]
+['Hot chocolate', 'Hot chocolate']
+Ethiopia Rg
+True
+True
+True
+False
+False
+False
+Yes
+Yes
+Sapiens A Brief History Of Humankind by Yuval Noah Harari
+Novel
+1
+3
+Khaled Hosseini
+80 pages
+BPB Publications (India)
+6
+Islamic Books
+8
+Total number of book pages in the database is 10,978 pages.
+5
+8.05
+9
+498
+2
+7
+6
+[498, 640, 80, 512, 492]
+[498, 640, 80, 512, 492]
+[16.0, 25.0, 13.0, 6.0]
+[492]
+[4, 6, 21, 38, 18]
+[0.0, 0.0, 0.0, 0.0, 4.0]
+[498]
+Train to Pakistan
+['History and Tradition', 'Business, Investment and Economics', 'Islamic Books', 'Islamic Books', 'Computer Science & Engineering']
+['Harish Bhat', 'Gianna Moscardo (Editor), Bruce Prideaux (Editor), Eric Laws (Editor)']
+['Madinah Arabic Reader 1', 'Train to Pakistan']
+['Novel', 'Islamic Books']
+['Yuval Noah Harari', 'Benjamin Graham', 'M.A.S. Abdel Haleem (Translator)', 'Leo Tolstoy', 'Gabriel Garcia Marquez', 'Khaled Hosseini', 'Hector Garcia, Francesc Miralles', 'Peter Thiel, Blake Masters']
+['Novel', 'Novel', 'Novel', 'Self-help and meditation', 'Self-help and meditation']
+['8th Impression', '1st Edition 2011', 'Reissue Edition', '19th Edition', '1st Edition', '1st Edition', 'Edition', '1st Edition', 'Edition', '1st Edition', '1st Edition', '1st Edition', '1st Edition', '1st Published', '1st Edition', '5th Edition']

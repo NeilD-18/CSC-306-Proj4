@@ -3,6 +3,8 @@ from databench_eval.utils import load_qa
 from models.zero_shot_incontext_learning import ZeroShotModelICL
 from models.cot_prompting import CoTPromptingModel
 from models.zero_shot_icl_2 import ZeroShotModelICL2
+from models.zero_shot_baseline import ZeroShotModel
+
 import csv
 import os
 import json
@@ -139,10 +141,12 @@ class EvalAgent:
 # Example usage:
 if __name__ == "__main__":
     agent = EvalAgent()
-    # cot = CoTPromptingModel(api_key=agent.api_key)
     api_key = os.getenv("OPENAI_API_KEY")
+    cot = CoTPromptingModel(api_key=api_key)
     model = ZeroShotModelICL2(api_key=api_key)
-    agent.evaluate(save_path="responses_zero_shot_icl2.txt", test_qa_path='competition/test_qa.csv',model=model)
+    # model = ZeroShotModel(api_key=api_key)
+
+    agent.evaluate(save_path="responses_zero_shot_icl.txt", test_qa_path='competition/test_qa.csv',model=model)
     
     # Alternative batch processing approach:
     # test_qa = agent.load_test_qa()
