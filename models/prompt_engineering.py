@@ -42,25 +42,30 @@ class PromptEngineering:
         Queries OpenAI's GPT model using a simple, direct prompt with the given tabular data and question.
         """
         prompt = f"""
-        Please read the following instructions carefully before answering:
-        1. Base your answer solely on the provided dataset.
-        2. Follow these detailed guidelines to structure your response.
-        3. Your answer must be simple, without any units, and provided directly without extra explanation.
-        4. The answer must be one of the following data types:
-           - String
-           - Integer
-           - Float
-           - List of strings
-           - List of integers
-           - List of floats
+        Please read these instructions carefully:
+        1. Provide ONLY the answer without any explanations or units
+        2. Format your response following these rules:
+            - For boolean questions: respond with ONLY 'True' or 'False'
+            - For numeric answers: provide ONLY the number in strings (e.g., '42', '3.14')
+            - For text answers: provide ONLY the exact text 
+            - for float answers: do not round the number, use the exact float value
+            - For list answers: use exact Python list format (e.g., [1, 2, 3] or ['a', 'b', 'c'])
+        3. Do not include:
+            - Units (e.g., write '42' not '42 kg')
+            - Explanations or reasoning
+            - Additional context
+            - Quotation marks around text answers
+            - Formatting or line breaks
+            - Currency symbols
 
         Here is the dataset:
         ```
         {csv_data}
         ```
 
-        Answer the following question without any additional explanation:
-        {question}
+        Question: {question}
+        
+        Answer in JSON format:
 
         Example response:
         {{

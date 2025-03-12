@@ -11,6 +11,7 @@ import json
 from tqdm import tqdm
 from models.zero_shot_baseline import ZeroShotModel
 from models.code_based_learning import CodeBasedModel
+from models.prompt_engineering import PromptEngineering
 
 from dotenv import load_dotenv
 load_dotenv()  # Load environment variables from .env file
@@ -144,9 +145,9 @@ if __name__ == "__main__":
     api_key = os.getenv("OPENAI_API_KEY")
     cot = CoTPromptingModel(api_key=api_key)
     model = ZeroShotModelICL2(api_key=api_key)
-    # model = ZeroShotModel(api_key=api_key)
-
-    agent.evaluate(save_path="responses_zero_shot_icl.txt", test_qa_path='competition/test_qa.csv',model=model)
+    model = ZeroShotModel(api_key=api_key)
+    # model = PromptEngineering(api_key=api_key)
+    agent.evaluate(save_path="responses_PE-2.txt", test_qa_path='competition/test_qa.csv',model=model)
     
     # Alternative batch processing approach:
     # test_qa = agent.load_test_qa()
