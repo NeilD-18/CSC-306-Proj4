@@ -16,3 +16,9 @@ Accuracy: 0.32
 
 Zero-shot baseline 4o-mini:
 Accuracy: 0.29
+
+Prompt-Engineering 4o-mini:
+Accuracy: 0.30
+
+Zero-shot ICL 4o-mini:
+Accuracy: 0.30

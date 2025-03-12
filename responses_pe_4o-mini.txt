@@ -1,0 +1,522 @@
+True
+True
+False
+False
+True
+False
+True
+True
+False
+Laboratory Technician
+Research & Development
+Divorced
+Life Sciences
+Travel_Rarely
+Male
+3
+Medical
+37.5
+6
+31
+3068
+246
+15.0
+10
+8
+8
+[1, 2, 3, 4]
+[2028, 2090, 2426, 2661, 2670]
+[1, 2, 3, 4]
+[23, 22, 21, 20, 20]
+[29, 32, 38, 41, 49]
+['Laboratory Technician', 'Research Scientist', 'Manager']
+['Research & Development', 'Sales']
+['Single', 'Married', 'Divorced']
+['Life Sciences', 'Other', 'Medical']
+['Travel_Rarely', 'Travel_Frequently', 'Non-Travel']
+['Yes', 'No']
+[1, 2, 3, 4]
+[1, 2, 3]
+True
+False
+True
+15
+False
+False
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+False
+False
+False
+2010
+3.5
+5.0
+2
+charlietrisj
+370.5
+30
+123
+9.5
+1554
+2005
+1
+100
+[2012, 2011, 2010, 2009]
+[123, 40, 35, 30, 23]
+[]
+[]
+[111492, 108562, 94354, 98798, 93889]
+[2010, 2011, 2012, 2009]
+False
+['EAST ASIA AND PACIFIC', 'LATIN AMERICA AND CARIBBEAN']
+False
+False
+True
+True
+False
+Request for Quotations
+Western and Central Africa
+Federated States of Micronesia
+Civil Works
+Western and Central Africa
+Burkina Faso
+Agriculture, Fishing and Forestry
+800433.3
+3
+30
+155198.56
+999999.0
+103198.56
+12
+[800433.3, 716716.34, 369866.76]
+True
+[754040.0, 999999.0, 879159.0, 879141.0, 879138.0]
+[2025, 2024, 2023]
+Failed to decode JSON response: Expecting ',' delimiter: line 2 column 174 (char 175)
+[157840.9, 186884.26]
+[716716.34, 369866.76, 186884.26, 157840.9]
+['Burkina Faso', 'Nigeria', 'Ghana', 'Somalia', 'Niger']
+['Western and Central Africa', 'Eastern and Southern Africa', 'LATIN AMERICA AND CARIBBEAN', 'Western and Central Africa']
+['Request for Quotations', 'Post', 'Individual Consultant Selection', 'Request for Bids']
+['GH', '1W', 'BF', 'NG']
+['Post', 'Prior']
+['Post', 'Prior']
+True
+True
+Failed to decode JSON response: Expecting value: line 2 column 15 (char 16)
+False
+False
+False
+False
+False
+Attractions
+Attractions
+Automotive
+Automotive
+150
+Commercial Trucks
+Attractions
+20
+2
+2
+0
+2
+6
+2
+False
+15
+['Attractions', 'Automotive']
+[13, 7]
+[1, 1]
+[12, 12, 6, 0]
+['Attractions', 'Automotive']
+['Attractions', 'Automotive']
+['Amusement and Theme Parks', 'Bars & Restaurants', 'Casinos & Gambling', 'Historic Site and Landmark Tours']
+['Attractions', 'Amusement and Theme Parks', 'Bars & Restaurants', 'Casinos & Gambling']
+['Attractions', 'Attractions', 'Attractions', 'Attractions']
+['Attractions', 'Automotive']
+['Attractions', 'Automotive']
+True
+True
+True
+True
+Failed to decode JSON response: Expecting value: line 2 column 15 (char 16)
+False
+False
+False
+Hacendado
+Spain
+Hacendado
+1
+Mercadona
+elcoco
+20
+2
+12
+10
+15
+30
+3
+[1522]
+['Seitán a la plancha']
+['Hacendado', 'Mercadona']
+['Vegetarian', 'Vegan', 'Green Dot', 'No gluten', 'Hacendado']
+['Mercadona', 'Hacendado']
+[8, 6]
+['Spain', 'United States', 'United Kingdom']
+[20, 20, 20]
+True
+Failed to decode JSON response: Expecting value: line 2 column 15 (char 16)
+Failed to decode JSON response: Expecting value: line 2 column 15 (char 16)
+False
+False
+False
+Failed to decode JSON response: Expecting value: line 2 column 15 (char 16)
+True
+Switzerland
+Bahamas
+Barbados
+Bahamas
+Bahamas
+Bahamas
+Barbados
+101.1
+46.5
+20
+69.1
+50.4
+76.7
+123.1
+3
+[46.5, 36.7, 39.2, 67.2, 19.0]
+[76.6, 76.7, 83.0, 85.0, 101.1]
+[158.7, 54.6, 120.3, 111.1, 43.5]
+[109.1, 97.0, 158.7]
+[97.0, 83.3, 86.8, 50.4, 69.4]
+[64.4, 63.7, 63.3, 63.2, 62.7]
+[99.4, 102.4, 102.4, 101.1, 101.1]
+['Switzerland', 'Bahamas', 'Iceland', 'Singapore', 'Barbados']
+['Switzerland', 'Iceland', 'Barbados']
+['Barbados', 'Norway', 'Denmark']
+['Australia', 'Austria', 'Canada', 'New Zealand', 'Ireland']
+['Luxembourg', 'Switzerland', 'Norway', 'Denmark', 'New Zealand']
+['Singapore', 'Hong Kong (China)', 'United States']
+True
+Failed to decode JSON response: Expecting value: line 2 column 15 (char 16)
+False
+False
+True
+True
+Failed to decode JSON response: Expecting value: line 2 column 15 (char 16)
+False
+5
+1
+3.5
+1.5
+1
+4
+3
+False
+337
+109.0
+10
+8.5
+2.5
+0.577
+236
+2
+[337, 330, 324, 327, 328]
+0
+0
+[118, 115, 112, 111, 110]
+[7.9, 8.0, 8.0, 8.2, 8.2]
+[4.5, 4.5, 4.0, 4.0, 4.0]
+[4.5, 4.5, 4.0, 4.0, 4.0]
+[118, 115, 111, 112, 109]
+[337, 330]
+[8.21, 8.2]
+[4, 5, 4, 4, 3]
+[2, 2, 1, 3, 3]
+[4.5, 4.0, 4.0, 4.0]
+[4.5, 4.0, 3.5, 4.0, 4.0]
+[1.5, 2.0, 2.5, 3.0, 3.0]
+False
+True
+True
+True
+True
+True
+True
+False
+False
+southeast
+male
+yes
+southwest
+female
+True
+0
+northeast
+yes
+42.13
+1.0
+4
+109164.18682
+18
+1
+3
+28.88
+[42.13, 39.82]
+[39611.7577, 28923.13692, 21984.47061]
+[18, 19, 19, 23, 23]
+[19, 18, 19]
+['no', 'yes']
+['southeast', 'southeast', 'southwest']
+True
+True
+False
+True
+False
+False
+False
+True
+False
+74 kg
+74 kg
+Bench Press
+398
+10
+5
+5
+398
+269
+Matthew Anderson
+1243
+132
+287
+5
+[398, 396, 396]
+[111, 120, 132, 133, 178]
+['74 kg', '120 kg', '83 kg', '52 kg', '59 kg']
+[40, 37, 31]
+[132, 235]
+[359, 265, 264]
+['Jessica Wilson', 'Emily Davis', 'Laura Taylor', 'Sarah Thomas', 'Jane Smith']
+['John Doe', 'Michael Johnson', 'Daniel Lee', 'Matthew Anderson']
+['74 kg', '120 kg', '83 kg']
+['Laura Taylor', 'Sarah Thomas', 'Matthew Anderson', 'Jane Smith', 'Laura Taylor']
+['Deadlift', 'Squat', 'Bench Press']
+['Bench Press', 'Deadlift', 'Squat']
+False
+False
+False
+True
+False
+True
+Failed to decode JSON response: Expecting value: line 2 column 15 (char 16)
+Failed to decode JSON response: Expecting value: line 2 column 15 (char 16)
+HHS Region 04
+Heart disease
+Male
+Rural
+HHS Region 04
+276.4
+0.4
+10
+2395.4
+1.1
+0.0
+5
+161.2
+[115.1, 124.5, 138.1, 132.2, 139.6]
+[0.4, 0.5, 0.5, 0.6, 0.6]
+[115.1, 124.5, 132.2, 138.1, 139.6]
+[248.8, 276.4, 246.0, 229.0]
+[115.1, 132.2, 138.1, 139.6, 140.8]
+['Heart disease']
+['HHS Region 04', 'HHS Region 05', 'HHS Region 03']
+['Urban', 'Rural']
+False
+False
+False
+True
+True
+True
+False
+False
+Kevin Durant
+Kevin Durant
+OKC
+James Harden
+OKC
+LeBron James
+James Harden
+179
+10380
+10300
+66.0
+82
+604
+0
+0
+154
+[886, 670, 640]
+[551, 604, 607]
+[2280, 2133, 2036, 2023]
+[142, 129, 116]
+[154, 105, 91]
+['Carmelo Anthony', 'Dwyane Wade', 'Brook Lopez', 'DeMar DeRozan', 'James Harden']
+['LaMarcus Aldridge', 'Kevin Durant', 'Carmelo Anthony']
+['OKC', 'LAL', 'MIA', 'HOU', 'NYK']
+['OKC', 'HOU', 'MIA', 'NYK', 'LAL']
+['Kobe Bryant', 'James Harden']
+['Kevin Durant', 'James Harden', 'Carmelo Anthony']
+['LeBron James', 'Deron Williams', 'Russell Westbrook', 'Stephen Curry']
+False
+True
+True
+False
+True
+True
+True
+6
+False
+1
+19
+165
+1
+23.1
+55
+1.45
+22.1
+20
+17
+10
+0.15
+2.24
+[180, 165, 156]
+[16, 17, 18, 19]
+[]
+[]
+[0, 1]
+[0]
+[165]
+[]
+[16, 17]
+False
+True
+False
+False
+False
+False
+False
+False
+False
+6
+1
+February
+8
+December
+January
+6
+Monday
+145.4
+0.9
+0.0
+8
+36.5
+634.8
+2.0
+20
+[145.4, 141.2, 133.3]
+[70.8, 77.5, 80.8, 94.3, 102.2]
+[0.0, 5.0, 6.0, 7.0, 8.0]
+[33, 33, 27, 27]
+[7.2, 7.2, 6.7, 6.7, 6.7]
+[0.0, 0.0, 0.0]
+[26.2, 27.4, 27.9]
+['August', 'December', 'February', 'January', 'November']
+['Wednesday', 'Monday', 'Thursday']
+['August', 'November']
+['Thursday', 'Tuesday', 'Monday']
+['January', 'August', 'November', 'February']
+['Tuesday', 'Saturday', 'Monday', 'Wednesday', 'Thursday']
+['Monday', 'Thursday', 'Saturday', 'Wednesday', 'Sunday']
+False
+False
+False
+False
+False
+True
+True
+True
+Lower Manhattan
+Coffee
+Sun
+Drinking Chocolate
+Jan
+8
+Lower Manhattan
+Coffee
+2
+12
+66.5
+True
+3.325
+20
+2
+9.0
+0
+[2, 2, 2]
+[5, 8]
+[2.0, 2.0, 2.5, 2.55]
+[9.0, 7.0, 6.0]
+[7]
+['Lower Manhattan', "Hell's Kitchen"]
+[]
+['Coffee', 'Tea', 'Drinking Chocolate']
+['Jan']
+['Sun', 'Mon']
+[5, 8]
+['Drinking Chocolate', 'Coffee']
+Sustainably Grown Organic Lg
+True
+True
+True
+False
+False
+False
+True
+Failed to decode JSON response: Expecting value: line 2 column 15 (char 16)
+A Thousand Splendid Suns
+Novel
+1
+5
+Khaled Hosseini
+80
+BPB Publications (India)
+6.0
+Islamic Books
+8th Impression
+10000
+5
+10.0
+9
+498
+2
+4
+0
+[498, 640, 80, 512, 492]
+[498, 640, 80, 512, 492]
+[39.0, 30.0, 27.0, 23.0]
+[492]
+[4.0, 6.0, 21.0, 38.0, 18.0]
+[10.0, 13.0, 1.198, 1.198, 27.0]
+[498]
+2.0
+['History and Tradition', ' Business, Investment and Economics', 'Islamic Books', 'Islamic Books', 'Computer Science & Engineering']
+['Harish Bhat']
+['Managing Tourism and Hospitality Services', 'Train to Pakistan']
+['Novel', 'Self-help and meditation']
+['Benjamin Graham', 'Gabriel Garcia Marquez', 'Khaled Hosseini']
+['Self-help and meditation', 'Self-help and meditation', 'Novel', 'Novel', 'Novel']
+['8th Impression', '1st Edition', 'Edition', 'Edition', '1st Published', '1st Edition']
