@@ -1,0 +1,522 @@
+Yes
+Yes
+No
+No
+12
+Yes
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Yes
+Laboratory Technician
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Single
+Life Sciences
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+3
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+37.5
+8
+31
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+10
+8
+8
+[1, 2, 3, 4]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['1', '2', '3', '4']
+[23, 22, 21, 20, 20]
+[29, 30, 32, 41, 38]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['Single', 'Married', 'Divorced']
+['Life Sciences', 'Other', 'Medical']
+['Travel_Rarely', 'Travel_Frequently', 'Non-Travel']
+['Yes', 'No']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['marknthedark', 'tinag1968', 'cmd123', 'oahulady66']
+False
+1
+20
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[]
+Failed to decode JSON response: Expecting ',' delimiter: line 2 column 260 (char 261)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+charlietrisj
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+30
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2004
+1
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+No
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+No
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Agriculture, Fishing and Forestry
+800433.3
+3
+40
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Yes
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['Ghana', 'Micronesia, Federated States of', 'Burkina Faso', 'Nigeria']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+No
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+12
+No
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+No
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Yes
+Yes
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Spain
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+25
+2
+22
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+36
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Yes
+Yes
+['Singapore', 'Hong Kong (China)', 'United States', 'Luxembourg']
+No
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+20
+Yes
+Yes
+Switzerland
+['Switzerland', 'Bahamas', 'Iceland', 'Singapore', 'Barbados', 'Norway', 'Denmark', 'Hong Kong (China)', 'United States', 'Australia', 'Austria', 'Canada', 'New Zealand', 'Ireland', 'France', 'Puerto Rico', 'Finland', 'Netherlands', 'Israel', 'Luxembourg']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Switzerland
+Bahamas
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+101.1
+46.5
+20
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+47.6
+76.7
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+3
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[101.1, 85.0, 83.0, 76.7, 76.6]
+[158.7, 54.6, 120.3, 111.1, 43.5]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[99.4, 101.1, 101.1, 102.4, 102.4]
+['Switzerland', 'Bahamas', 'Iceland', 'Singapore', 'Barbados']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['Barbados', 'Norway', 'Denmark']
+['Australia', 'Austria', 'Canada', 'New Zealand', 'Ireland', 'France']
+['Switzerland', 'Luxembourg', 'United States', 'Denmark', 'Norway']
+['Barbados', 'Puerto Rico', 'France']
+['337', '334', '331']
+['101', '102', '102']
+False
+No
+Yes
+2.0
+['Applicant 5', 'Applicant 8', 'Applicant 9', 'Applicant 10', 'Applicant 14', 'Applicant 15', 'Applicant 16', 'Applicant 17', 'Applicant 19', 'Applicant 20']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+3
+Yes
+337
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+10
+8.5
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2
+[337, 330, 324, 327, 328]
+0
+0
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[7.9, 8.0, 8.0, 8.2, 8.2]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[4.5, 4.5, 4.0, 4.0, 4.0]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+no
+False
+true
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['female', 'male', 'male', 'male', 'male', 'female', 'female', 'male', 'male']
+yes
+['northeast', 'northeast', 'northeast']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+southeast
+male
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+True
+0
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+42.13
+1.1
+4
+Failed to decode JSON response: Expecting property name enclosed in double quotes: line 2 column 19 (char 20)
+18
+2
+5
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[18, 19, 19]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['John Doe', 'Laura Taylor', 'Sarah Thomas', 'Matthew Anderson']
+Yes
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Yes
+No
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+12
+5
+7
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['Jessica Wilson', 'Emily Davis', 'Laura Taylor', 'Sarah Thomas', 'Jane Smith']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Yes
+True
+Yes
+No
+Yes
+0
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Heart disease
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+N/A
+0.4
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2634.4
+1.2
+1.0
+5
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['Urban', 'Rural']
+False
+False
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+True
+True
+True
+False
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Kevin Durant
+Kevin Durant
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+179
+10380
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+0
+0
+154
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[2280, 2133, 2036, 2023]
+['Kobe Bryant', 'James Harden', 'LeBron James']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['Carmelo Anthony', 'Dwyane Wade', 'DeMar DeRozan', 'LaMarcus Aldridge', 'Kobe Bryant']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+No
+Yes
+No
+Yes
+No
+1
+Yes
+10
+No
+1
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+1
+23.1
+180
+1.45
+22.1
+20
+17
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+0.15
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[16, 17, 18]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[0, 1]
+[0]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+No
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+No
+[]
+[]
+No
+['January', 'February', 'August', 'November', 'December']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+26.4
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+0.0
+6
+50.1
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+20
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+No
+No
+No
+No
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Yes
+Yes
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Lower Manhattan
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+2
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Yes
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+20
+2
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[5, 8]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[7, 8]
+['Lower Manhattan', "Hell's Kitchen"]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['Jan']
+['Sun', 'Mon']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+False
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+True
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+1
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Islamic Books
+8th Impression
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+9
+498
+2
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[498, 640, 80, 512, 492]
+[498, 640, 80, 512, 492]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+[4.0, 6.0, 21.0, 38.0, 18.0]
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['History and Tradition', 'Business, Investment and Economics', 'Islamic Books', 'Islamic Books', 'Computer Science & Engineering']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)
+['Self-help and meditation', 'Self-help and meditation', 'Novel', 'Novel', 'Novel']
+Failed to decode JSON response: Expecting value: line 1 column 1 (char 0)

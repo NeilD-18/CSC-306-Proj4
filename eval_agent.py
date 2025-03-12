@@ -40,7 +40,12 @@ class EvalAgent:
             response = model.ask_question(dataset, question)
             try:
                 response_json = json.loads(response)
-                responses.append(response_json["answer"])
+                print(response_json)
+                 # ✅ Check if "answer" exists before accessing it
+                if "answer" in response_json:
+                    responses.append(response_json["answer"])
+                else:
+                    responses.append("ERROR") 
             except json.JSONDecodeError as e:
                 print(f"Failed to decode JSON response: {e}")
                 responses.append(f"Failed to decode JSON response: {e}")
@@ -148,10 +153,13 @@ if __name__ == "__main__":
     icl = ZeroShotModelICL2(api_key=api_key)
     baseline = ZeroShotModel(api_key=api_key)
     pe = PromptEngineering(api_key=api_key)
-    # agent.evaluate(save_path="responses_Cot_4o-mini.txt", test_qa_path='competition/test_qa.csv',model=cot)
+    cbl = CodeBasedModel(api_key=api_key)
+    
+    #agent.evaluate(save_path="responses_cbl_4o-mini.txt", test_qa_path='competition/test_qa.csv',model=cbl)
+    agent.evaluate(save_path="responses_Cot_3.5-turbou.txt", test_qa_path='competition/test_qa.csv',model=cot)
     # agent.evaluate(save_path="responses_zero_shot_icl_4o-mini.txt", test_qa_path='competition/test_qa.csv',model=icl)
     # agent.evaluate(save_path="responses_zero_shot_baseline_4o-mini.txt", test_qa_path='competition/test_qa.csv',model=baseline)
-    agent.evaluate(save_path="responses_pe_4o-mini.txt", test_qa_path='competition/test_qa.csv',model=pe)
+    #agent.evaluate(save_path="responses_pe_4o-mini.txt", test_qa_path='competition/test_qa.csv',model=pe)
     
     # Alternative batch processing approach:
     # test_qa = agent.load_test_qa()

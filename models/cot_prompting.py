@@ -108,7 +108,7 @@ class CoTPromptingModel:
         """
 
         response = self.client.chat.completions.create(
-            model="gpt-4o-mini",  
+            model="gpt-3.5-turbo",  
             messages=[
                 {"role": "system", "content": "You are a data analyst reasoning through tabular data."},
                 {"role": "user", "content": prompt}
