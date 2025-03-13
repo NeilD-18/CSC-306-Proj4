@@ -11,7 +11,7 @@ dotenv.load_dotenv()  # Load environment variables from .env file
 api_key = os.getenv("OPENAI_API_KEY")
 
 class ZeroShotModel:
-    def __init__(self, api_key=None, competition_directory=None):
+    def __init__(self, api_key=None, competition_directory=None, data=None):
         """
         Initialize the Zero-Shot Baseline Model with OpenAI API key and data directory.
         
@@ -34,8 +34,11 @@ class ZeroShotModel:
 
         # Set up DataAgent
         self.agent = DataAgent()
-        self.competition_directory = competition_directory or os.path.join(os.path.dirname(__file__), "../competition")
-        self.agent.load_data(self.competition_directory)
+        if not data:
+            self.competition_directory = competition_directory or os.path.join(os.path.dirname(__file__), "../competition")
+            self.agent.load_data(self.competition_directory)
+        else:
+            self.agent.data = data
 
     def query_gpt_baseline(self, csv_data, question):
         """

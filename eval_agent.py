@@ -5,6 +5,8 @@ from models.cot_prompting import CoTPromptingModel
 from models.zero_shot_icl_2 import ZeroShotModelICL2
 from models.zero_shot_baseline import ZeroShotModel
 
+from agents.dataAgent import DataAgent
+
 import csv
 import os
 import json
@@ -146,14 +148,18 @@ class EvalAgent:
 
 # Example usage:
 if __name__ == "__main__":
+    data_agent = DataAgent()
+    data_agent.load_data('competition')
+    data = data_agent.data
+
     agent = EvalAgent()
     api_key = os.getenv("OPENAI_API_KEY")
 
-    cot = CoTPromptingModel(api_key=api_key)
-    icl = ZeroShotModelICL2(api_key=api_key)
-    baseline = ZeroShotModel(api_key=api_key)
-    pe = PromptEngineering(api_key=api_key)
-    cbl = CodeBasedModel(api_key=api_key)
+    cot = CoTPromptingModel(api_key=api_key, data=data)
+    icl = ZeroShotModelICL2(api_key=api_key, data=data)
+    baseline = ZeroShotModel(api_key=api_key, data=data)
+    pe = PromptEngineering(api_key=api_key, data=data)
+    cbl = CodeBasedModel(api_key=api_key, data=data)
     
     #agent.evaluate(save_path="responses_cbl_4o-mini.txt", test_qa_path='competition/test_qa.csv',model=cbl)
     # agent.evaluate(save_path="responses_Cot_3.5-turbou.txt", test_qa_path='competition/test_qa.csv',model=cot)

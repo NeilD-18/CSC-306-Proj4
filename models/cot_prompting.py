@@ -6,7 +6,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from agents.dataAgent import DataAgent  # Import the DataAgent class
 
 class CoTPromptingModel:
-    def __init__(self, api_key=None, competition_directory=None):
+    def __init__(self, api_key=None, competition_directory=None, data=None):
         """
         Initialize the Chain of Thought Prompting Model with OpenAI API key and data directory.
         
@@ -29,8 +29,11 @@ class CoTPromptingModel:
 
         # Set up DataAgent
         self.agent = DataAgent()
-        self.competition_directory = competition_directory or os.path.join(os.path.dirname(__file__), "../competition")
-        self.agent.load_data(self.competition_directory)
+        if not data:
+            self.competition_directory = competition_directory or os.path.join(os.path.dirname(__file__), "../competition")
+            self.agent.load_data(self.competition_directory)
+        else:
+            self.agent.data = data
 
     def identify_relevant_columns(self, csv_data, question):
         """

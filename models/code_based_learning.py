@@ -12,7 +12,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from agents.dataAgent import DataAgent  # Import the DataAgent class
 
 class CodeBasedModel:
-    def __init__(self, api_key=None, competition_directory=None):
+    def __init__(self, api_key=None, competition_directory=None, data=None):
         """
         Initialize the Code-Based Model with OpenAI API key and data directory.
         
@@ -22,8 +22,11 @@ class CodeBasedModel:
         """
         self.api_key = api_key or os.getenv("OPENAI_API_KEY")
         self.agent = DataAgent()
-        self.competition_directory = competition_directory or os.path.join(os.path.dirname(__file__), "../competition")
-        self.agent.load_data(self.competition_directory)
+        if not data:
+            self.competition_directory = competition_directory or os.path.join(os.path.dirname(__file__), "../competition")
+            self.agent.load_data(self.competition_directory)
+        else:
+            self.agent.data = data
         self.client = OpenAI(api_key=self.api_key)
 
     def query_gpt_code(self, csv_data, column_names, question):
