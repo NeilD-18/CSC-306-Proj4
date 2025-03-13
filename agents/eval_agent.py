@@ -3,20 +3,11 @@ from databench_eval.utils import load_qa
 import os
 import sys
 
-from dataAgent import DataAgent
-
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from models.zero_shot_incontext_learning import ZeroShotModelICL
-from models.cot_prompting import CoTPromptingModel
-from models.zero_shot_icl_2 import ZeroShotModelICL2
-from models.zero_shot_baseline import ZeroShotModel
-from models.code_based_learning import CodeBasedModel
-from models.prompt_engineering import PromptEngineering
-
 import csv
 import json
 from tqdm import tqdm
 
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from dotenv import load_dotenv
 load_dotenv()  # Load environment variables from .env file
@@ -25,6 +16,7 @@ load_dotenv()  # Load environment variables from .env file
 class EvalAgent:
     def __init__(self):
         self.api_key = os.getenv("OPENAI_API_KEY")
+        from models.zero_shot_incontext_learning import ZeroShotModelICL
         self.model = ZeroShotModelICL(api_key=self.api_key)
     
     def model_call(self, prompts: list[str], model=None) -> list[str]:
@@ -149,10 +141,10 @@ class EvalAgent:
         return acc, acc_lite, responses
 
 
-# Example usage:
-if __name__ == "__main__":
+def main():
     project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     
+    from dataAgent import DataAgent
     data_agent = DataAgent()
     # Use os.path.join to create the correct path to competition directory
     competition_path = os.path.join(project_root, 'competition')
@@ -161,6 +153,12 @@ if __name__ == "__main__":
 
     agent = EvalAgent()
     api_key = os.getenv("OPENAI_API_KEY")
+
+    from models.cot_prompting import CoTPromptingModel
+    from models.zero_shot_icl_2 import ZeroShotModelICL2
+    from models.zero_shot_baseline import ZeroShotModel
+    from models.prompt_engineering import PromptEngineering
+    from models.code_based_learning import CodeBasedModel
 
     cot = CoTPromptingModel(api_key=api_key, data=data)
     icl = ZeroShotModelICL2(api_key=api_key, data=data)
@@ -171,10 +169,15 @@ if __name__ == "__main__":
     #agent.evaluate(save_path="responses_cbl_4o-mini.txt", test_qa_path='competition/test_qa.csv',model=cbl)
     # agent.evaluate(save_path="responses_Cot_3.5-turbou.txt", test_qa_path='competition/test_qa.csv',model=cot)
     # agent.evaluate(save_path="responses_zero_shot_icl_4o-mini.txt", test_qa_path='competition/test_qa.csv',model=icl)
-    agent.evaluate(save_path="response_testing.txt",model=baseline)
+    agent.evaluate(save_path="response_testing.txt",model=cbl)
     #agent.evaluate(save_path="responses_pe_4o-mini.txt", test_qa_path='competition/test_qa.csv',model=pe)
     
     # Alternative batch processing approach:
     # test_qa = agent.load_test_qa()
     # responses = agent.run_batch(test_qa, batch_size=10)
     # print(responses)
+
+
+# Example usage:
+if __name__ == "__main__":
+    main()

@@ -2,8 +2,7 @@ import os
 from openai import OpenAI
 import sys 
 
-# sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-from agents.dataAgent import DataAgent  # Import the DataAgent class
+sys.path.append(os.path.join(os.path.dirname(__file__), '..')) 
 
 class CoTPromptingModel:
     def __init__(self, api_key=None, competition_directory=None, data=None):
@@ -28,6 +27,7 @@ class CoTPromptingModel:
         self.client = OpenAI(api_key=self.api_key)
 
         # Set up DataAgent
+        from agents.dataAgent import DataAgent  # Import the DataAgent class
         self.agent = DataAgent()
         if not data:
             self.competition_directory = competition_directory or os.path.join(os.path.dirname(__file__), "../competition")

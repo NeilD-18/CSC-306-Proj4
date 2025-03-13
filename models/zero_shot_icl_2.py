@@ -5,7 +5,6 @@ import json  # Ensure json module is imported
 import sys
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))  # Add the parent directory to the system path
 
-from agents.dataAgent import DataAgent  # Import the DataAgent class
 from dotenv import load_dotenv
 load_dotenv()  # Load environment variables from .env file
 
@@ -31,15 +30,16 @@ class ZeroShotModelICL2:
             )
 
         # Initialize OpenAI client with the API key
+        self.client = OpenAI(api_key=self.api_key)
 
         # Set up DataAgent
+        from agents.dataAgent import DataAgent  # Import the DataAgent class
         self.agent = DataAgent()
         if not data:
             self.competition_directory = competition_directory or os.path.join(os.path.dirname(__file__), "../competition")
             self.agent.load_data(self.competition_directory)
         else:
             self.agent.data = data
-        self.client = OpenAI(api_key=self.api_key)
 
     def query_gpt_icl(self, csv_data, question):
         """
