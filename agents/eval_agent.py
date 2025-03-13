@@ -1,19 +1,22 @@
 from databench_eval import Runner, Evaluator
 from databench_eval.utils import load_qa
+import os
+import sys
+
+from dataAgent import DataAgent
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from models.zero_shot_incontext_learning import ZeroShotModelICL
 from models.cot_prompting import CoTPromptingModel
 from models.zero_shot_icl_2 import ZeroShotModelICL2
 from models.zero_shot_baseline import ZeroShotModel
-
-from agents.dataAgent import DataAgent
-
-import csv
-import os
-import json
-from tqdm import tqdm
-from models.zero_shot_baseline import ZeroShotModel
 from models.code_based_learning import CodeBasedModel
 from models.prompt_engineering import PromptEngineering
+
+import csv
+import json
+from tqdm import tqdm
+
 
 from dotenv import load_dotenv
 load_dotenv()  # Load environment variables from .env file
@@ -43,7 +46,7 @@ class EvalAgent:
             try:
                 response_json = json.loads(response)
                 print(response_json)
-                 # ✅ Check if "answer" exists before accessing it
+        
                 if "answer" in response_json:
                     responses.append(response_json["answer"])
                 else:
@@ -99,7 +102,7 @@ class EvalAgent:
             
         return responses
         
-    def evaluate(self, test_qa_path='competition/test_qa.csv', save_path="responses.txt", model=None):
+    def evaluate(self, test_qa_path='../competition/test_qa.csv', save_path="responses.txt", model=None):
         """
         Run evaluation on the test dataset and print metrics
         
@@ -148,8 +151,12 @@ class EvalAgent:
 
 # Example usage:
 if __name__ == "__main__":
+    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    
     data_agent = DataAgent()
-    data_agent.load_data('competition')
+    # Use os.path.join to create the correct path to competition directory
+    competition_path = os.path.join(project_root, 'competition')
+    data_agent.load_data(competition_path)
     data = data_agent.data
 
     agent = EvalAgent()
@@ -164,7 +171,7 @@ if __name__ == "__main__":
     #agent.evaluate(save_path="responses_cbl_4o-mini.txt", test_qa_path='competition/test_qa.csv',model=cbl)
     # agent.evaluate(save_path="responses_Cot_3.5-turbou.txt", test_qa_path='competition/test_qa.csv',model=cot)
     # agent.evaluate(save_path="responses_zero_shot_icl_4o-mini.txt", test_qa_path='competition/test_qa.csv',model=icl)
-    agent.evaluate(save_path="responses_zero_shot_baseline_3.5-turbo.txt", test_qa_path='competition/test_qa.csv',model=baseline)
+    agent.evaluate(save_path="response_testing.txt",model=baseline)
     #agent.evaluate(save_path="responses_pe_4o-mini.txt", test_qa_path='competition/test_qa.csv',model=pe)
     
     # Alternative batch processing approach:

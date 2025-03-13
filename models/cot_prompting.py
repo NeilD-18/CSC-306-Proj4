@@ -2,7 +2,7 @@ import os
 from openai import OpenAI
 import sys 
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+# sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from agents.dataAgent import DataAgent  # Import the DataAgent class
 
 class CoTPromptingModel:
