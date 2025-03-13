@@ -11,21 +11,21 @@ Laboratory Technician
 Sales
 Divorced
 Life Sciences
-Travel_Rarely
+Travel_Frequently
 Female
 3
 Other
 36.8
 9
 25
-4878
-124
+4875
+143
 8
 1
 8
 8 years
 [3, 4]
-[2028, 2090, 2426, 2661, 2670]
+[2028, 2090, 2426, 2661, 2693]
 1, 2, 3, 4, 5
 [23, 22, 21, 20, 17]
 29, 32, 35, 36, 38
@@ -60,11 +60,11 @@ charlietrisj
 2009
 1
 228
-2010, 2011, 2012, 2009
+2011, 2010, 2012, 2009
 40, 36, 35, 23, 19
-Failed to decode JSON response: Unterminated string starting at: line 4 column 20 (char 253)
-['marknthedark', 'Largeandy', 'treasurespast', 'IndustryBuff', 'oahulady66', 'cmd123', 'euronovice', 'a300zx4pak', 'mreav', 'charlietrisj', 'busyvatraveler']
-[98798, 93340, 84087, 82443, 93889]
+['marknthedark', 'bigdog717', 'treasurespast', 'oahulady66', 'euronovice', 'busyvatraveler']
+['marknthedark', 'Largeandy', 'treasurespast', 'oahulady66', 'euronovice', 'busyvatraveler']
+[124329781, 127329251, 127544996, 116668645, 116189947]
 2010, 2011, 2009, 2012
 Yes
 EAST ASIA AND PACIFIC
@@ -82,7 +82,7 @@ Burkina Faso
 Agriculture, Fishing and Forestry
 800433.3
 3
-20
+21
 Average procurement amount is $108,073.69
 754040.0
 298,682.69
@@ -92,11 +92,11 @@ Yes, there are contracts awarded after the 2020 fiscal year had ended.
 754040.0, 999999.0, 879159.0, 879141.0, 879138.0
 2024, 2025, 2023
 {'2025': 292203.24, '2024': 2060137.02, '2023': 13222.93}
-Contract 1: 99,996.0 USD, Contract 2: 100,000.0 USD
+Contract 1: 99,907.75 USD, Contract 2: 100,013.26 USD
 [800433.3, 716716.34, 67925.87, 69088.82]
 Burkina Faso, Nigeria, Niger, Ethiopia, Somalia
 Western and Central Africa, Eastern and Southern Africa, LATIN AMERICA AND CARIBBEAN, EAST ASIA AND PACIFIC
-Request for Quotations, Request for Bids, Individual Consultant Selection, Consultant Qualification Selection
+Request for Quotations, Request for Bids, Individual Consultant Selection, Consultant Qualification  Selection
 Ghana, Micronesia, Burkina Faso, Nigeria
 Post, Prior
 Post, Prior
@@ -127,19 +127,19 @@ Yes
 Attractions, Auto Body Styles, Automotive
 {'Attractions': 12, 'Automotive': 7}
 [1, 1]
-{'Tier 1': 12, 'Tier 2': 12, 'Tier 3': 6, 'Tier 4': 1}
+{'Tier 1': 14, 'Tier 2': 14, 'Tier 3': 6, 'Tier 4': 1}
 Attractions, Automotive
 Attractions, Automotive
-['Auto Body Styles', 'Bars & Restaurants', 'Amusement and Theme Parks', 'Automotive']
+Auto Body Styles, Amusement and Theme Parks, Bars & Restaurants, Casinos & Gambling
 Tier 1, Tier 2
 Attractions, Attractions, Attractions, Attractions
 150, 1, 2
 150, 1, 2
-Yes, there is a vegan product in the dataset.
+Yes, there is at least one vegan product in the dataset.
 Yes
 Yes
 Yes, the product Seitán a la plancha is palm oil free.
-Yes, there is a product belonging to the category 'Plant-based foods and beverages'.
+Yes
 No
 No
 Yes
@@ -149,21 +149,21 @@ Hacendado
 1
 Hacendado
 elcoco
-15
-3
+14
+4
 15
 6
 20
-19
+20
 1
 ['00001522']
 ['Seitán a la plancha']
+[Hacendado]
 To be completed
-No preservatives, Green Dot, Vegetarian, Vegan, No gluten
-Hacendado, Mercadona
+Hacendado
 3 stores for Hacendado and 3 stores for Mercadona
 Spain, United States, United Kingdom
-{'Spain': 21, 'United States': 1, 'United Kingdom': 1}
+Spain: 20 products, United States: 1 product, United Kingdom: 1 product
 Yes
 Yes
 Yes
@@ -183,14 +183,14 @@ Barbados
 46.5
 20
 74.86
-111.8
+111.6
 67.2
 126.6
 3
 46.5, 39.2, 67.2, 26.2, 26.4
 62.4, 62.7, 63.1, 63.2, 63.3
-[158.7, 54.6, 120.3, 111.1, 43.5]
-Switzerland: Groceries Index - 109.1, Restaurant Price Index - 97.0, Local Purchasing Power Index - 158.7
+158.7, 54.6, 120.3, 111.1, 43.5
+Switzerland: 109.1, Bahamas: 81.6, Iceland: 88.4
 97.0, 83.3, 86.8, 50.4, 73.5
 Barbados, Puerto Rico, Finland, New Zealand, Austria
 United States,142.3; Luxembourg,182.5; Switzerland,158.7; Norway,114.7; Denmark,127.2
@@ -216,7 +216,7 @@ Yes
 5
 3
 Yes
-337
+CGPA
 107.5
 11
 8.5
@@ -238,7 +238,7 @@ TOEFL Score: 118, 115, 112, 111, 110
 [2, 2, 3, 3, 3]
 Failed to decode JSON response: Unterminated string starting at: line 2 column 15 (char 16)
 [4.5, 4.0, 3.5, 3.5, 4.5]
-[4.5, 4.5, 4.5, 4.0, 3.5]
+[4.5, 4.5, 4.5, 4.5, 4.0]
 No
 True
 True
@@ -267,8 +267,8 @@ no
 30.78
 40.3, 39.82
 [39611.7577, 36837.467, 28923.13692]
-18, 19, 19, 25, 23
-19, 18, 19
+[18, 19, 19, 25, 23]
+[19, 18, 19]
 ['yes']
 southeast, southwest, southeast
 Yes
@@ -282,10 +282,10 @@ Yes
 No
 120 kg
 74 kg
-Deadlift
+Squat
 398
 10
-5
+6
 4
 179
 Jessica Wilson lifted 269 kg in the Bench Press category.
@@ -296,9 +296,9 @@ Emily Davis
 4
 398, 396, 396
 120, 120, 132, 133, 178
-Weight Class: 120 kg - Total Lift: 1094 kg, Weight Class: 74 kg - Total Lift: 1194 kg, Weight Class: 105 kg - Total Lift: 508 kg, Weight Class: 66 kg - Total Lift: 498 kg, Weight Class: 52 kg - Total Lift: 675 kg
-Failed to decode JSON response: Unterminated string starting at: line 12 column 20 (char 235)
-Emily Davis - Bench Press (235 kg), Laura Taylor - Deadlift (273 kg)
+Weight Class: 74 kg - Total Lift: 845 kg, Weight Class: 120 kg - Total Lift: 694 kg, Weight Class: 105 kg - Total Lift: 508 kg, Weight Class: 66 kg - Total Lift: 598 kg, Weight Class: 52 kg - Total Lift: 675 kg
+{'59 kg': 21, '83 kg': 27, '66 kg': 35}
+Emily Davis - Squat (359 kg), Laura Taylor - Deadlift (273 kg)
 359, 265, 264
 Jessica Wilson, Emily Davis, Laura Taylor, Sarah Thomas, Jane Smith
 John Doe, Michael Johnson, Chris Brown, Daniel Lee, Matthew Anderson
@@ -312,7 +312,7 @@ Yes
 Yes
 Yes
 Yes
-No region appears more than 50 times.
+No
 Yes
 HHS Region 04
 Heart disease
@@ -324,13 +324,13 @@ HHS Region 04
 6
 3986.5
 1.25
-37.67
+47.67
 5
 144.3
 276.4, 248.8, 246.0, 229.0, 226.8
 0.4, 0.4, 0.5, 0.5, 0.5
 115.1, 124.5, 132.2, 138.1, 139.6
-Region 04 Urban Male: 64.6, Region 02 Urban Male: 38.8, Region 03 Urban Male: 28.6, Region 01 Urban Male: 38.6
+Region 04 Urban Male: 64.6, Region 02 Urban Male: 38.8, Region 03 Urban Male: 29.4, Region 05 Urban Male: 22.5
 HHS Region 03, Urban, Female, Heart disease, 138.1, 0.5
 Heart disease
 HHS Region 04, HHS Region 02, HHS Region 03
@@ -353,7 +353,7 @@ Russell Westbrook
 145
 11682
 640
-66.67%
+72.6%
 82
 607
 0
@@ -372,8 +372,8 @@ Kevin Durant, LeBron James, David Lee
 OKC, LAL, MIA, HOU, NYK
 OKC, NYK, POR, GSW, MIA
 Russell Westbrook, Stephen Curry
-Kevin Durant, LeBron James, LaMarcus Aldridge
-Russell Westbrook, Damian Lillard, Rajon Rondo, Chris Paul
+LeBron James, Kevin Durant, LaMarcus Aldridge
+Russell Westbrook, Damian Lillard, Rajon Rondo, Jrue Holiday
 No
 Yes
 Yes
@@ -393,16 +393,16 @@ No
 22.7
 20
 17
-19
-0.035
+0
+0.35
 2.86
-180, 165, 165
-[17, 16, 18, 19]
+[165, 165, 156]
+[16, 17, 18, 19]
 []
-[145, 146]
-0, 1
+[146, 146]
+[0, 1]
 [0]
-[147, 156]
+[147, 148, 150, 156]
 []
 [18, 19]
 Yes
@@ -412,38 +412,38 @@ No
 No
 Yes
 Yes
-No
+Yes
 Yes
 11
 5
 January
 11
 Thursday
-August
+July
 1
 August
 26.4
 0.9
 0.0
 9
-49.95
-625.1
-4.978
+51.05
+628.8
+3.978
 20
-26.4, 26.2, 26.2
+26.4, 26.2, 24.1
 [70.8, 77.5, 80.8, 94.3, 97.1]
-[0.0, 8, 7, 6, 5]
-27, 27, 27, 29
+[0.0, 8, 6, 5, 4, 7]
+[27, 27, 29, 33]
 [6.7, 6.7, 6.7, 6.7, 6.7]
 0.0
 [26.2, 27.4, 27.9]
-['August', 'December', 'February', 'January', 'November']
+August, December, February, January, November
 Wednesday, Monday, Tuesday
 August, November
 Tuesday, Sunday, Thursday
-February, January, November, August
+February, November, August
 Sunday, Thursday, Saturday, Monday, Wednesday
-Monday, Thursday, Wednesday, Tuesday, Saturday, Sunday
+Monday, Thursday, Sunday, Wednesday
 No
 No
 No
@@ -463,11 +463,11 @@ Coffee - Gourmet brewed coffee - Ethiopia Rg
 2
 11
 109.2
-Yes, our stores are open on Sunday.
+Yes
 3.23
 20
 2
-9,00 US$
+9.00 US$
 0
 2, 2, 2
 5, 8
@@ -510,16 +510,16 @@ Islamic Books
 2
 498, 640, 80, 512, 492
 498, 640, 80, 512, 492
-[25.0, 16.0, 13.0, 5.0]
+[25.0, 16.0, 13.0, 6.0]
 [492]
 4.0, 6.0, 21.0, 38.0, 18.0
 [0.0, 2.0, 5.0, 13.0, 6.0]
 [498]
 Train to Pakistan
 History and Tradition, Business, Investment and Economics, Islamic Books, Islamic Books, Computer Science & Engineering
-Harish Bhat , B.S. Badan, Gianna Moscardo (Editor), Bruce Prideaux (Editor), Eric Laws (Editor)
-['Madinah Arabic Reader 1', '400 Days', 'Train to Pakistan']
+Failed to decode JSON response: Unterminated string starting at: line 2 column 15 (char 16)
+['Madinah Arabic Reader 1', 'Train to Pakistan']
 History and Tradition, Business, Investment and Economics, Novel
 Yuval Noah Harari, Benjamin Graham, M.A.S. Abdel Haleem (Translator), Leo Tolstoy, Chetan Bhagat, Gabriel Garcia Marquez, Khaled Hosseini, Hector Garcia, Francesc Miralles, Peter Thiel, Blake Masters
 Novel, Novel, Novel, Self-help and meditation, Self-help and meditation
-8th Impression, 1st Edition 2011, 1st Edition, 1st Edition, 1st Edition, 1st Edition, 1st Edition, 1st Edition, 1st Edition, 1st Edition
+8th Impression, 1st Edition 2011, 1st Edition, 1st Edition, 1st Edition, 1st Edition, 1st Edition, 1st Edition, 1st Edition

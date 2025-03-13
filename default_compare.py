@@ -5,9 +5,9 @@ if __name__ == "__main__":
     evaluator = Evaluator()
     
     # Read the files
-    with open("model_responses/responses_Cot_4o-mini.txt", "r") as f:
+    with open("model_responses/responses_zero_shot_baseline_4o-mini.txt", "r") as f:
         responses = f.read().splitlines()
-    with open("answers/answers.txt", "r") as f:
+    with open("answers/answers_lite.txt", "r") as f:
         answers = f.read().splitlines()
     with open("answers/semantics.txt", "r") as f:
         semantics = f.read().splitlines()

@@ -91,8 +91,8 @@ class DataAgent:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Load and analyze competition data.')
     parser.add_argument('--data-dir', type=str, 
-                        default=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'competition test'),
-                        help='Path to the competition test directory (default: ../competition test)')
+                        default=os.path.join(os.path.dirname(os.path.dirname(__file__)), 'competition'),
+                        help='Path to the competition directory (default: ../competition)')
     
     args = parser.parse_args()
     
