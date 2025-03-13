@@ -79,5 +79,21 @@ python agents/default_comparer_agent.py
 
 This module is designed to calculate accuracy using a default comparison method. Additionally, it includes a function that provides a detailed breakdown of accuracy for each dataset. You have the option to specify the file paths for the responses and the answers if necessary.
 
+## Running Default Comparer on All Responses
 
+The `main.py` file is designed to run the default comparer on all model responses and print the results to the terminal. To execute it, simply run:
+
+```sh
+python main.py
+```
+
+This script will load all response files, compare them to the actual answers using the default comparison method from databench-eval, and output the accuracy results directly to the terminal as a breakdown for each dataset aswell as the overall score.
+
+## Results
+
+The results of the model evaluations are documented in two files:
+
+- `Accuracy_Results.md`: This file provides a summary of the accuracy results for different models and techniques on sample data. It includes the overall accuracy for each method such as Zero-shot baseline, Zero-shot ICL, CoT, Code-based prompting, and Prompt-Engineering for both GPT-3.5-turbo and 4o-mini models.
+
+- `Dataset_Accuracy.md`: This file provides a detailed breakdown of the accuracy for each dataset and model. It includes the accuracy for each dataset and the overall accuracy for each model response file. This allows for a more granular analysis of the model performance across different datasets.
 

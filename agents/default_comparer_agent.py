@@ -83,7 +83,7 @@ class DefaultComparer:
         accuracy = correct / len(answers)
         print(f"Accuracy: {accuracy:.2f}")
 
-    def data_set_accuracy(self, filename):
+    def dataset_accuracy(self, filename):
         # Read the files
         with open(filename, "r") as f:
             responses = f.read().splitlines()
