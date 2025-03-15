@@ -47,6 +47,71 @@ class DefaultComparer:
     }
     
 
+    def semantic_accuracy(self, filename):
+        """
+        Evaluate model performance based on semantic types.
+        
+        Parameters:
+            filename (str): Path to the response file to evaluate
+            
+        Returns:
+            dict: Dictionary containing accuracy metrics for each semantic type
+        """
+        try:
+            # Read the files
+            with open(filename, "r", encoding='utf-8') as f:
+                responses = f.read().splitlines()
+            with open(self.answers_lite, "r", encoding='utf-8') as f:
+                answers = f.read().splitlines()
+            with open(self.semantics, "r", encoding='utf-8') as f:
+                semantics = f.read().splitlines()
+
+            # Initialize counters for each semantic type
+            semantic_stats = {
+                'boolean': {'correct': 0, 'total': 0},
+                'category': {'correct': 0, 'total': 0},
+                'number': {'correct': 0, 'total': 0},
+                'list[category]': {'correct': 0, 'total': 0},
+                'list[number]': {'correct': 0, 'total': 0}
+            }
+
+            # Evaluate each response
+            for response, answer, semantic in zip(responses, answers, semantics):
+                semantic = semantic.strip()
+                if semantic not in semantic_stats:
+                    continue
+                    
+                semantic_stats[semantic]['total'] += 1
+                if self.evaluator.default_compare(response, answer, semantic):
+                    semantic_stats[semantic]['correct'] += 1
+
+            # Print results
+            print(f"\nSemantic Type Analysis for: {os.path.basename(filename)}")
+            print("-" * 50)
+            print("Type            Correct     Total    Accuracy")
+            print("-" * 50)
+
+            for semantic_type, stats in semantic_stats.items():
+                if stats['total'] > 0:
+                    accuracy = stats['correct'] / stats['total']
+                    print(f"{semantic_type:<15} {stats['correct']:<10} {stats['total']:<9} {accuracy:.2f}")
+                else:
+                    print(f"{semantic_type:<15} No examples found")
+
+            # Calculate overall accuracy
+            total_correct = sum(stats['correct'] for stats in semantic_stats.values())
+            total_samples = sum(stats['total'] for stats in semantic_stats.values())
+            overall_accuracy = total_correct / total_samples if total_samples > 0 else 0
+
+            print("-" * 50)
+            print(f"Overall Accuracy: {overall_accuracy:.2f}")
+            
+            return semantic_stats
+
+        except Exception as e:
+            print(f"Error in semantic analysis: {str(e)}")
+            return None
+    
     def default_accuracy(self,file_path, answers=None):
         """
         Calculate the accuracy of responses compared to the provided answers using a default comparison method.
@@ -127,4 +192,5 @@ if __name__ == "__main__":
     filepath = 'model_responses/responses_cbl_4o-mini33percent.txt'
     comparer = DefaultComparer()
     # comparer.default_accuracy(file_path=filepath)
-    comparer.data_set_accuracy(filepath)
+    # comparer.dataset_accuracy(filepath)
+    comparer.semantic_accuracy(filepath)

@@ -97,3 +97,35 @@ The results of the model evaluations are documented in two files:
 
 - `Dataset_Accuracy.md`: This file provides a detailed breakdown of the accuracy for each dataset and model. It includes the accuracy for each dataset and the overall accuracy for each model response file. This allows for a more granular analysis of the model performance across different datasets.
 
+## Data Visualization
+To visualize the results of the model evaluations, you can use the `dataset_viz.py` script. This script generates several visualizations to help analyze the performance of different models across various datasets.
+
+### Generating Visualizations
+
+1. Ensure you have the necessary dependencies installed:
+  ```sh
+  pip install pandas matplotlib numpy
+  ```
+
+2. Run the `dataset_viz.py` script:
+  ```sh
+  python utilities/dataset_viz.py
+  ```
+
+This will create and save the following visualizations as PNG files:
+
+- `stacked_by_dataset.png`: A stacked bar graph showing the cumulative accuracy of each model across different datasets.
+- `stacked_by_model.png`: A stacked bar graph showing the cumulative accuracy of each dataset across different models.
+- `overall_accuracy.png`: A bar graph comparing the overall accuracy of each model.
+
+These visualizations provide a clear and concise way to compare model performance and identify the best-performing models and datasets.
+
+
+## Updating Results
+Whenever new results is obtained and push to the main repo, please update the following files:
+- `Accuracy_Results.md`
+- `Dataset_Accuracy.md`
+- `Type_Accuracy.md`
+- `model_accuracy_comparison.csv`
+- `type_accuracy.csv`
+- Run the `dataset_viz.py` file for updated .png files
