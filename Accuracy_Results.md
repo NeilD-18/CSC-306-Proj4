@@ -32,4 +32,4 @@
     - Accuracy: 0.23
 
 - Code-based prompting 4o-mini:
-    - Accuracy: 0.78
+    - Accuracy: 0.79

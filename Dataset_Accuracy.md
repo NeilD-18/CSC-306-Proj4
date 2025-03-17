@@ -198,7 +198,7 @@ Overall Accuracy: 0.23
 
 Overall Accuracy: 0.52
 
-## Breakdown for model: `model_responses/responses_cbl_4o-mini33percent.txt`
+## Breakdown for model: `model_responses/responses_cbl_4o-mini.txt`
 
 | Dataset | Accuracy |
 |---------|----------|
@@ -220,7 +220,7 @@ Overall Accuracy: 0.52
 
 Overall Accuracy: 0.78
 
-## Breakdown for model: `model_responses/responses_cbl_4o-mini32percent.txt`
+## Breakdown for model: `model_responses/responses_cbl_3.5-turbo.txt`
 
 | Dataset | Accuracy |
 |---------|----------|

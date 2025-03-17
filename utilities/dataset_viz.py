@@ -249,9 +249,9 @@ class DatasetVisualizer:
 # Example usage
 if __name__ == "__main__":
     visualizer = DatasetVisualizer()
-    # visualizer.create_stacked_by_dataset()
-    # visualizer.create_stacked_by_model()
-    # visualizer.create_overall_comparison()
+    visualizer.create_stacked_by_dataset()
+    visualizer.create_stacked_by_model()
+    visualizer.create_overall_comparison()
     visualizer.create_type_accuracy_graph()
     print("Visualizations have been created and saved as PNG files.")
 

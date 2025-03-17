@@ -8,5 +8,5 @@ responses_pe_4o-mini.txt,0.63,0.57,0.40,0.44,0.43,0.49
 responses_icl_4o-mini.txt,0.61,0.58,0.40,0.44,0.47,0.50
 responses_Cot_4o-mini.txt,0.36,0.19,0.25,0.17,0.11,0.23
 responses_Cot_3.5-turbo.txt,0.67,0.68,0.38,0.47,0.47,0.52
-responses_cbl_4o-mini33percent.txt,0.88,0.80,0.83,0.61,0.70,0.78
-responses_cbl_4o-mini32percent.txt,0.86,0.78,0.82,0.60,0.68,0.77
+responses_cbl_4o-mini.txt,0.88,0.80,0.83,0.61,0.70,0.78
+responses_cbl_3.5-turbo.txt,0.86,0.78,0.82,0.60,0.68,0.77

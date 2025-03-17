@@ -118,7 +118,7 @@ list[number]    43         91        0.47
 Overall Accuracy: 0.52
 
 
-### Semantic Type Analysis for: responses_cbl_4o-mini33percent.txt
+### Semantic Type Analysis for: responses_cbl_4o-mini.txt
 --------------------------------------------------
 Type            Correct     Total    Accuracy
 --------------------------------------------------
@@ -131,7 +131,7 @@ list[number]    64         91        0.70
 Overall Accuracy: 0.78
 
 
-### Semantic Type Analysis for: responses_cbl_4o-mini32percent.txt
+### Semantic Type Analysis for: responses_cbl_3.5-turbo.txt
 --------------------------------------------------
 Type            Correct     Total    Accuracy
 --------------------------------------------------
